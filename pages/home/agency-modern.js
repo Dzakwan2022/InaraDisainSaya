@@ -11,6 +11,8 @@ import Testimonial from "../../components/home-page/home-10/Testimonial";
 import FancyBanner from "../../components/home-page/home-10/FancyBanner";
 import CallToActions from "../../components/home-page/home-10/CallToActions";
 import Footer from "../../components/home-page/home-10/Footer";
+import Tabs from "../../components/tabs/Tabs";
+import Tabs2 from "../../components/tabs/Tabs2";
 
 const AgencyModern = () => {
   return (
@@ -85,7 +87,44 @@ const AgencyModern = () => {
         <div className="container">
           <OurAim />
         </div>
+
         {/* /.container */}
+      </div>
+
+      <div className="pricing-section-one position-relative mt-200 lg-mt-120">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 m-auto">
+              <div
+                className="title-style-three text-center mb-60 lg-mb-40"
+                data-aos="fade-up"
+              >
+                <h3 className="text-uppercase fw-500">
+                  Product &
+                  <p className="text-warning d-inline">Services</p>
+                </h3>
+                <p className="pr-info text-warning fw-300" style={{fontSize : '0.9rem'}}>PENGEMBANGAN TEKNOLOGI INFORMASI UNTUK MENGDUKUNG DIGITALISASI INDUSTRI KEUANGAN MIKRO</p>
+                
+              </div>
+              {/* /.title-style-three */}
+            </div>
+          </div>
+          <Tabs />
+          {/* /.pricing-table-area-one */}
+        </div>
+        {/* End .container */}
+
+        <div className="shapes shape-one rounded-circle" />
+        <img
+          src="/images/shape/shape_40.svg"
+          alt="shape"
+          className="lazy-img shapes shape-two"
+        />
+        <img
+          src="/images/shape/shape_41.svg"
+          alt="shape"
+          className="lazy-img shapes shape-three"
+        />
       </div>
       {/* /.fancy-feature-two */}
 
