@@ -18,6 +18,11 @@ import ContactForm3 from "../../components/contact/ContactForm3";
 import BlockContact2 from "../../components/contact/BlockContact2";
 import Map2 from "../../components/contact/Map";
 import LogoGroup from "../../components/home-page/home-7/LogoGroup";
+import Image from "next/image";import ContactForm2 from "../../components/contact/ContactForm2";
+import ContactForm3 from "../../components/contact/ContactForm3";
+import BlockContact2 from "../../components/contact/BlockContact2";
+import Map2 from "../../components/contact/Map";
+import LogoGroup from "../../components/home-page/home-7/LogoGroup";
 import Image from "next/image";
 const AgencyModern = () => {
   return (
