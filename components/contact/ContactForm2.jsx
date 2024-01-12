@@ -12,7 +12,7 @@ const ContactForm2 = () => {
             </label>
             <input
               type="text"
-              placeholder="Rashed Kabir"
+              placeholder="John Doe"
               name="name"
               required="required"
             />

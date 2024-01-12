@@ -7,6 +7,9 @@ const LogoGroup = () => {
     "Plogo-11.png",
     "Plogo-12.png",
     "Plogo-13.png",
+    "Plogo-11.png",
+    "Plogo-7.png",
+
   ];
 
   return (
