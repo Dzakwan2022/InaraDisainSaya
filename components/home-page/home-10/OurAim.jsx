@@ -3,7 +3,6 @@ import Image from "next/image";
 const OurAim = () => {
   const aimItems = [
     {
-    
       text: "Dengan total penjualan dan implementasi di ribuan Lembaga Keuangan dan Perbankan Mikro di seluruh Indonesia, menjadikan USSI sebagai satu-satunya provider sistem informasi yang paling berpengalaman dan paling memahami berbagai seluk beluk permasalahan implementasi sistem informasi di lembaga keuangan dan mikro. Produk-produk kami juga telah tersebar diseluruh Indonesia mulai dari Nangro Aceh Darussalam sampai Papua",
       list: [
         "Amazing communication.",
@@ -84,7 +83,13 @@ const OurAim = () => {
           >
             <div className="title-style-one">
               <div className="sc-title text-uppercase">{item.title}</div>
-              <h4 className="main-title fw-bold tx-dark m0" style={{ fontSize: '2rem' }} >Mengapa Harus  <p className="text-warning d-inline">Pilih GMI</p>?</h4>
+              <h4
+                className="main-title fw-bold tx-dark m0"
+                style={{ fontSize: "2rem" }}
+              >
+                Mengapa Harus <p className="text-warning d-inline">Pilih GMI</p>
+                ?
+              </h4>
             </div>
             <p className="text-md tx-dark pt-20 pb-15 lg-pb-5">{item.text}</p>
             {/* <ul className="style-none list-item fs-18">
@@ -92,36 +97,39 @@ const OurAim = () => {
                 <li key={index}>{listItem}</li>
               ))}
             </ul> */}
-            <div className="accordion accordion-flush md-mt-60" id="accordionOne">
-      {accordionData.map((item, index) => (
-        <div className="accordion-item" key={index}>
-          <div className="accordion-header" id={"heading" + index}>
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target={"#collapse" + index}
-              aria-expanded={index === 1 ? "true" : "false"}
-              aria-controls={"collapse" + index}
+            <div
+              className="accordion accordion-flush md-mt-60"
+              id="accordionOne"
             >
-              {item.question}
-            </button>
-          </div>
-          <div
-            id={"collapse" + index}
-            className={`accordion-collapse collapse${
-              index === 1 ? " show" : ""
-            }`}
-            aria-labelledby={"heading" + index}
-            data-bs-parent="#accordionOne"
-          >
-            <div className="accordion-body">
-              <p>{item.answer}</p>
+              {accordionData.map((item, index) => (
+                <div className="accordion-item" key={index}>
+                  <div className="accordion-header" id={"heading" + index}>
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={"#collapse" + index}
+                      aria-expanded={index === 1 ? "true" : "false"}
+                      aria-controls={"collapse" + index}
+                    >
+                      {item.question}
+                    </button>
+                  </div>
+                  <div
+                    id={"collapse" + index}
+                    className={`accordion-collapse collapse${
+                      index === 0 ? " show" : ""
+                    }`}
+                    aria-labelledby={"heading" + index}
+                    data-bs-parent="#accordionOne"
+                  >
+                    <div className="accordion-body">
+                      <p>{item.answer}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
-          </div>
-        </div>
-      ))}
-    </div>
           </div>
         ))}
 
@@ -138,24 +146,20 @@ const OurAim = () => {
       <div className="col-md-6 order-md-first " data-aos="fade-right">
         <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-10 md-mt-50 sm-mt-80">
           {imageItems.map((item, index) => (
-          
-            
-            <> 
-            <img
-            key={index}
-            src={item.src}
-            alt={item.alt}
-            className={item.className}
-          />
-          {/* <Image 
+            <>
+              <img
+                key={index}
+                src={item.src}
+                alt={item.alt}
+                className={item.className}
+              />
+              {/* <Image 
             src={item.src}
             alt={item.alt}
             width={500}
             height={500}
             /> */}
-
-             </>
-            
+            </>
           ))}
 
           {/* <div className="card-one" data-aos="fade-up" data-aos-delay="200">
@@ -173,9 +177,7 @@ const OurAim = () => {
         {/* /.img-meta */}
       </div>
     </div>
-    
   );
-  
 };
 
 export default OurAim;
