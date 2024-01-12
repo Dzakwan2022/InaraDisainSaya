@@ -11,11 +11,16 @@ import Testimonial from "../../components/home-page/home-10/Testimonial";
 import FancyBanner from "../../components/home-page/home-10/FancyBanner";
 import CallToActions from "../../components/home-page/home-10/CallToActions";
 import Footer from "../../components/home-page/home-10/Footer";
-
+import ContactForm2 from "../../components/contact/ContactForm2";
+import ContactForm3 from "../../components/contact/ContactForm3";
+import BlockContact2 from "../../components/contact/BlockContact2";
+import Map2 from "../../components/contact/Map";
+import LogoGroup from "../../components/home-page/home-7/LogoGroup";
+import Image from "next/image";
 const AgencyModern = () => {
   return (
     <>
-      <Seo pageTitle="Agency Modern" />
+      <Seo pageTitle="PT GMI - Gunung Mas Inovasi" />
       {/* <!-- 
         =============================================
         Theme Default Menu
@@ -31,7 +36,6 @@ const AgencyModern = () => {
       <div className="hero-banner-one p-30">
         <div className="bg-wrapper" data-aos="fade">
           <Hero />
-          {/* /.container */}
           <img
             src="/images/shape/shape_08.svg"
             alt="illustration"
@@ -52,27 +56,38 @@ const AgencyModern = () => {
             <div className="col-lg-6" data-aos="fade-right">
               <div className="title-style-one text-center text-lg-start">
                 <h2 className="main-title fw-bold tx-dark m0">
-                  Provide <span>Quality</span> Services.
+                  Mendukung <span>Kemajuan</span> Ekonomi Makro di{" "}
+                  <p className="text-primary d-inline">Indonesia</p> .
                 </h2>
               </div>
-              {/* /.title-style-one */}
             </div>
             <div className="col-lg-5 ms-auto" data-aos="fade-left">
               <p className="text-lg text-center text-lg-start md-pt-30 m0">
-                Jano provides alternative asset management solutions to a global
-                client base and manages a significant.
+                {/* Jano provides alternative asset management solutions to a global
+                client base and manages a significant. */}
+                Lembaga Keuangan dan Perbankan Micro berperan penting dalam
+                memajukan sektor ekonomi di Indonesia. Dengan sistem digital
+                kami, Lembaga Keuangan dan Perbankan Micro dapat
+                mengintegrasikan berbagai skema bisnis dan pelayanannya untuk
+                maju bersama-sama meski ke pelosok sekalipun.
               </p>
             </div>
           </div>
         </div>
-        {/* End .row */}
 
-        <div className="inner-content pt-110 lg-pt-60 md-pt-30">
+        {/* <div className="inner-content pt-110 lg-pt-60 md-pt-30">
           <div className="row gx-xxl-5">
             <Services />
           </div>
+        </div> */}
+
+        <div className="wrapper pt-110 lg-pt-80">
+          <div className="container">
+            <div className="row justify-content-between">
+              <FancyBlock2 />
+            </div>
+          </div>
         </div>
-        {/* /.inner-content */}
       </div>
       {/* /.fancy-feature-one */}
 
@@ -85,7 +100,6 @@ const AgencyModern = () => {
         <div className="container">
           <OurAim />
         </div>
-        {/* /.container */}
       </div>
       {/* /.fancy-feature-two */}
 
@@ -94,7 +108,7 @@ const AgencyModern = () => {
 				Feedback Section One
 			=====================================================
 			*/}
-      <div
+      {/* <div
         className="feedback-section-one position-relative p-30 mt-200 lg-mt-130 "
         data-aos="fade-up"
       >
@@ -108,8 +122,7 @@ const AgencyModern = () => {
           <div className="shapes shape-three" />
           <Testimonial />
         </div>
-        {/* /.bg-wrapper */}
-      </div>
+      </div> */}
       {/* /.feedback-section-one */}
 
       {/* 
@@ -117,12 +130,11 @@ const AgencyModern = () => {
 				Feature Section Two
 			============================================== 
 			*/}
-      <div className="fancy-feature-two position-relative pt-250 lg-pt-120">
+      {/* <div className="fancy-feature-two position-relative pt-250 lg-pt-120">
         <div className="container">
           <FancyBlock />
         </div>
-        {/* /.container */}
-      </div>
+      </div> */}
       {/* /.fancy-feature-two */}
 
       {/*
@@ -130,14 +142,86 @@ const AgencyModern = () => {
 				Card Style Two
 			=====================================================
 			*/}
-      <div className="wrapper pt-110 lg-pt-80">
+      {/* <div className="wrapper pt-110 lg-pt-80">
         <div className="container">
           <div className="row justify-content-between">
             <FancyBlock2 />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /.wrapper */}
+
+      {/* 
+        =============================================
+         Client Section
+        ==============================================
+      */}
+      <div className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-5 col-lg-6" data-data-aos="fade-right">
+              <div className="title-style-four">
+                <div className="sc-title-two" style={{ color: "#6A45FF" }}>
+                  Partners
+                </div>
+                <h2 className="main-title fw-500 tx-dark m0">
+                  Beberapa <span>Partner</span> yang telah bekerja sama dengan
+                  kami.
+                </h2>
+              </div>
+              {/* /.title-style-four */}
+              <p className="fs-20 pt-30 pe-xxl-5">
+                Bergabunglah bersama kami untuk memajukan sektor ekonomi di
+                Indonesia.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* /.container */}
+
+        <div className="logo-wrapper d-flex flex-wrap justify-content-center align-items-center">
+          <LogoGroup />
+        </div>
+        <Image
+          src="/images/shape/shape_49.svg"
+          alt="shape"
+          width={20}
+          height={20}
+          className="lazy-img shapes shape-one"
+        />
+
+        <Image
+          src="/images/shape/shape_50.svg"
+          alt="shape"
+          width={20}
+          height={20}
+          className="lazy-img shapes shape-two"
+        />
+
+        <Image
+          src="/images/shape/shape_51.svg"
+          alt="shape"
+          width={20}
+          height={20}
+          className="lazy-img shapes shape-three"
+        />
+
+        {/* <img
+          src="/images/shape/shape_49.svg"
+          alt="logo"
+          className="lazy-img shapes shape-one"
+        />
+        <img
+          src="/images/shape/shape_50.svg"
+          alt="logo"
+          className="lazy-img shapes shape-two"
+        />
+        <img
+          src="/images/shape/shape_51.svg"
+          alt="logo"
+          className="lazy-img shapes shape-three"
+        /> */}
+      </div>
 
       {/*
 			=====================================================
@@ -162,7 +246,6 @@ const AgencyModern = () => {
                     Inside <span>story</span> of our company.
                   </h2>
                 </div>
-                {/* /.title-style-one */}
               </div>
               <div className="col-lg-6 col-sm-5 ms-auto d-flex justify-content-center justify-content-sm-end">
                 <Link href="/blog/blog-v1" className="btn-one fw-500">
@@ -170,15 +253,12 @@ const AgencyModern = () => {
                 </Link>
               </div>
             </div>
-            {/* End .row */}
 
             <div className="row pt-50 lg-pt-30">
               <Blog />
             </div>
           </div>
-          {/* /.container */}
         </div>
-        {/* /.bg-wrapper */}
       </div>
       {/* /.blog-section-one */}
 
@@ -187,7 +267,7 @@ const AgencyModern = () => {
 				Wrapper
 			============================================== 
 			*/}
-      <FancyBanner />
+      {/* <FancyBanner /> */}
       {/* /.wrapper */}
 
       {/*
@@ -195,8 +275,40 @@ const AgencyModern = () => {
 				Fancy Short Banner One
 			=====================================================
 			*/}
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* /.fancy-short-banner-one */}
+
+      {/* 
+      =============================================
+        Contact Section One
+      ==============================================
+      */}
+      <div className="container">
+        <div className="contact-section-two text-start mt-80 lg-mt-60">
+          <div className="row">
+            <div className="col-lg-7">
+              <div className="form-style-three md-mb-60" data-aos="fade-right">
+                {/* <ContactForm2 /> */}
+                <Map2 />
+              </div>
+              {/* /.form-style-three */}
+            </div>
+            {/* End col-lg-7 */}
+
+            <div className="col-xl-4 col-lg-5  ms-auto" data-aos="fade-left">
+              <BlockContact2 />
+            </div>
+            {/* End col-xl-4 */}
+          </div>
+
+          {/* <div className="row">
+            <h5>Location</h5>
+
+            <Map2 />
+          </div> */}
+        </div>
+        {/* /.contact-section-two */}
+      </div>
 
       {/*
 			=====================================================
