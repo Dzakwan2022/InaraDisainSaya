@@ -99,8 +99,8 @@ const AgencyModern = () => {
                 className="title-style-three text-center mb-60 lg-mb-40"
                 data-aos="fade-up"
               >
-                <h3 className="text-uppercase fw-500">
-                  Product &
+                <h3 className="text-uppercase fw-500 fw-bold">
+                  Product & 
                   <p className="text-warning d-inline">Services</p>
                 </h3>
                 <p className="pr-info text-warning fw-300" style={{fontSize : '0.9rem'}}>PENGEMBANGAN TEKNOLOGI INFORMASI UNTUK MENGDUKUNG DIGITALISASI INDUSTRI KEUANGAN MIKRO</p>
