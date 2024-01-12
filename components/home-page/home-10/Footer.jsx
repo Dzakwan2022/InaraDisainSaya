@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_01.png" alt="" width={95} />
+            <img src="/images/logo/logo-gmi.png" alt="" width={200} />
           </Link>
         </div>
         <img
@@ -57,9 +57,11 @@ const Footer = () => {
       {/* End menu data */}
 
       <div className="col-xl-3 col-sm-4 mb-30">
-        <h5 className="footer-title tx-dark fw-500">Our Address</h5>
+        <h5 className="footer-title tx-dark fw-500">Alamat Kami</h5>
         <p className="fs-17">
-          2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
+          {/* 2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states. */}
+          JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
+
         </p>
         <a href="mailto:januinc@company.com" className="email tran3s fs-17">
           januinc@company.com

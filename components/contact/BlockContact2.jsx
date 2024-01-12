@@ -4,17 +4,18 @@ const BlockContact2 = () => {
   const addressBlocks = [
     {
       icon: "/images/icon/icon_161.svg",
-      title: "Our Address",
+      title: "Alamat Kami",
       content: (
         <>
-          1012 Pebda Parkway, Mirpur 2 <br />
-          Dhaka, Bangladesh
+          {/* 1012 Pebda Parkway, Mirpur 2 <br />
+          Dhaka, Bangladesh */}
+          JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
         </>
       ),
     },
     {
       icon: "/images/icon/icon_162.svg",
-      title: "Contact Info",
+      title: "Kontak",
       content: (
         <>
           Open a chat or give us call at <br />
@@ -26,7 +27,8 @@ const BlockContact2 = () => {
     },
     {
       icon: "/images/icon/icon_163.svg",
-      title: "Live Support",
+      // title: "Live Support",
+      title: "Helpdesk",
       content: (
         <>
           Urgent go to live chat portal <br />
