@@ -35,7 +35,7 @@ const AgencyModern = () => {
         Theme Hero Banner
         ============================================== 
         */}
-      <div className="hero-banner-one p-30">
+      <div className="hero-banner-one">
         <div className="bg-wrapper" data-aos="fade">
           <Hero />
           <img
@@ -113,7 +113,7 @@ const AgencyModern = () => {
                 data-aos="fade-up"
               >
                 <h3 className="text-uppercase fw-500 fw-bold">
-                  Product & 
+                  Product&amp; 
                   <p className="text-warning d-inline">Services</p>
                 </h3>
                 <p className="pr-info text-warning fw-300" style={{fontSize : '0.9rem'}}>PENGEMBANGAN TEKNOLOGI INFORMASI UNTUK MENGDUKUNG DIGITALISASI INDUSTRI KEUANGAN MIKRO</p>

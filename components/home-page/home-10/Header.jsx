@@ -35,7 +35,7 @@ const Header = () => {
                 src="/images/logo/logo-gmi.png"
                 alt="logo"
                 width={200}
-                height={60}
+                height={55}
               />
             </Link>
           </div>

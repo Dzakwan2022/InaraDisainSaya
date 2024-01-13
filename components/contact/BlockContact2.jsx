@@ -19,9 +19,9 @@ const BlockContact2 = () => {
       content: (
         <>
           Open a chat or give us call at <br />
-          <a href="tel:310.841.5500" className="call">
-            310.841.5500
-          </a>
+          <a href="https://Wa.me/+6281220396797" className="mobile tran3s fs-20 mt-10 mb-20" target="_blank">
+          +62 812-2039-6797
+        </a>
         </>
       ),
     },
@@ -32,8 +32,8 @@ const BlockContact2 = () => {
       content: (
         <>
           Urgent go to live chat portal <br />
-          <a href="mailto:name@email.com" className="webaddress">
-            www.supportlive.com
+          <a href="mailto:info@gminovasi.com" className="webaddress">
+            info@gminovasi.com
           </a>
         </>
       ),
