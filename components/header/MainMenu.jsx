@@ -5,6 +5,7 @@ import {
   portfolioItems,
   blogItems,
   contactItems,
+  profileItems,
 } from "../../data/menu";
 
 import { useRouter } from "next/router";
@@ -12,6 +13,7 @@ import Image from "next/image";
 
 const MainMenu = () => {
   const router = useRouter();
+  // console.log(router.pathname)
 
   const isActive = (link) => {
     return router.pathname.replace("/[id]", "") === link.replace(/\/\d+$/, "");
@@ -48,9 +50,10 @@ const MainMenu = () => {
           </li>
           {/* End li */}
 
-          <li className="nav-item dropdown mega-dropdown-md">
-            <a
-              // className="nav-link dropdown-toggle active-menu"
+          {/* <li className="nav-item dropdown mega-dropdown-md"> */}
+
+          <li className="nav-item">
+            {/* <a
               href="#"
               role="button"
               data-bs-toggle="dropdown"
@@ -64,11 +67,26 @@ const MainMenu = () => {
                   : "nav-link dropdown-toggle"
               }
 
-              // style={{color:'green'}}
             >
               Beranda
-            </a>
-            <ul className="dropdown-menu">
+            </a> */}
+            {router.pathname !== "/" || "/#" ? (
+              <Link
+                href="/#"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Beranda
+              </Link>
+            ) : (
+              <a
+                href="#"
+                role="button"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Beranda
+              </a>
+            )}
+            {/* <ul className="dropdown-menu">
               <li>
                 <div className="row">
                   {menuItems.map((menu, index) => (
@@ -102,7 +120,7 @@ const MainMenu = () => {
                   ))}
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </li>
           {/* End li (home mega menu) */}
 
@@ -127,19 +145,20 @@ const MainMenu = () => {
               Profil
             </a>
             <ul className="dropdown-menu">
-              {pagesItems.map((item, index) => (
-                <li className="dropdown-submenu dropdown" key={index}>
+              {profileItems.map((item, index) => (
+                <li className="" key={index}>
                   <a
                     // className="dropdown-item dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside"
-                    aria-expanded="false"
-                    className={
-                      item.subItems.some((elm) => isActive(elm.link))
-                        ? "dropdown-item dropdown-toggle active-menu"
-                        : "dropdown-item dropdown-toggle"
-                    }
-                    href="#"
+                    // data-bs-toggle="dropdown"
+                    // data-bs-auto-close="outside"
+                    // aria-expanded="false"
+                    className="dropdown-item "
+                    // className={
+                    //   item.subItems.some((elm) => isActive(elm.link))
+                    //     ? "dropdown-item dropdown-toggle active-menu"
+                    //     : "dropdown-item dropdown-toggle"
+                    // }
+                    href={item.link}
                   >
                     <span>{item.title}</span>
                   </a>
@@ -163,19 +182,23 @@ const MainMenu = () => {
           </li>
           {/* End li (pages) */}
 
-          <li className="nav-item dropdown">
+          <li className="nav-item">
             <a
-              // className="nav-link dropdown-toggle"
-              className={
+              className={`nav-link ${
                 portfolioItems.some((elm) => isActive(elm.link))
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
-              }
-              href="#"
+                  ? "active-menu"
+                  : ""
+              } `}
+              // className={
+              //   portfolioItems.some((elm) => isActive(elm.link))
+              //     ? "nav-link dropdown-toggle active-menu"
+              //     : "nav-link dropdown-toggle"
+              // }
+              href="#product"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
+              // data-bs-toggle="dropdown"
+              // data-bs-auto-close="outside"
+              // aria-expanded="false"
             >
               Produk
             </a>
@@ -196,19 +219,19 @@ const MainMenu = () => {
           </li>
           {/* End li (portfolio) */}
 
-          <li className="nav-item dropdown">
+          <li className="nav-item ">
             <a
-              // className="nav-link dropdown-toggle"
-              className={
-                blogItems.some((elm) => isActive(elm.link))
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
-              }
-              href="#"
+              className="nav-link "
+              // className={
+              //   blogItems.some((elm) => isActive(elm.link))
+              //     ? "nav-link dropdown-toggle active-menu"
+              //     : "nav-link dropdown-toggle"
+              // }
+              href="#clients"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
+              // data-bs-toggle="dropdown"
+              // data-bs-auto-close="outside"
+              // aria-expanded="false"
             >
               Klien
             </a>
@@ -229,50 +252,19 @@ const MainMenu = () => {
           </li>
           {/* End li (blog) */}
 
-          <li className="nav-item dropdown">
+          <li className="nav-item ">
             <a
-              className={
-                contactItems.some((elm) => isActive(elm.link))
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
-              }
-              href="#"
+              className="nav-link "
+              // className={
+              //   contactItems.some((elm) => isActive(elm.link))
+              //     ? "nav-link dropdown-toggle active-menu"
+              //     : "nav-link dropdown-toggle"
+              // }
+              href="#contact"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
-            >
-              Artikel
-            </a>
-            <ul className="dropdown-menu">
-              {contactItems.map((contact, index) => (
-                <li key={index}>
-                  <Link
-                    href={contact.link}
-                    className={`dropdown-item ${
-                      isActive(contact.link) ? "active" : ""
-                    }`}
-                  >
-                    <span>{contact.text}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-
-
-          <li className="nav-item dropdown">
-            <a
-              className={
-                contactItems.some((elm) => isActive(elm.link))
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
-              }
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
+              // data-bs-toggle="dropdown"
+              // data-bs-auto-close="outside"
+              // aria-expanded="false"
             >
               Kontak
             </a>

@@ -42,6 +42,9 @@
   --prime-ten: #ff3294;
   --prime-eleven: #ffce4c;
   --prime-twelve: #ffe500;
+
+
+  --primary-gmi: #a07d08;
 }
 ::selection {
   background-color: #2a2a2a;
@@ -326,7 +329,10 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: var(--prime-ten);
+  // background: var(--prime-ten);
+
+  // background orange
+  background: var(--primary-gmi);
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -415,7 +421,8 @@ p {
   bottom: 13px;
   width: 97%;
   height: 12px;
-  background: #ff5bd7;
+  // background: #ff5bd7;
+  background: #a07d08;
   opacity: 0.5;
   z-index: -1;
 }
@@ -10465,4 +10472,11 @@ body .btn-twentySix:hover:after {
 .fancy-feature-fiftySeven .location.seven {
   top: 65%;
   left: 72%;
+}
+
+
+// my custom style
+
+::placeholder {
+  color: #000;
 }

@@ -9,7 +9,7 @@ const socialIcons = [
   },
   {
     iconClass: "fab fa-linkedin-in",
-    link: "#",
+    link: "https://www.linkedin.com/company/gunung-mas-inovasi/",
   },
 ];
 

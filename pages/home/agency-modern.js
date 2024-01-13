@@ -16,6 +16,8 @@ import Tabs2 from "../../components/tabs/Tabs2";
 import ContactForm2 from "../../components/contact/ContactForm2";
 import ContactForm3 from "../../components/contact/ContactForm3";
 import BlockContact2 from "../../components/contact/BlockContact2";
+import BlockContact from "../../components/contact/BlockContact";
+import BlockContact3 from "../../components/contact/BlockContact3";
 import Map2 from "../../components/contact/Map";
 import LogoGroup from "../../components/home-page/home-7/LogoGroup";
 import Image from "next/image";
@@ -52,14 +54,16 @@ const AgencyModern = () => {
         Feature Section One
         ============================================== 
         */}
-      <div className="fancy-feature-one pt-170 lg-pt-140">
+      <div className="fancy-feature-one pt-170 lg-pt-140" id="about">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right">
               <div className="title-style-one text-center text-lg-start">
                 <h2 className="main-title fw-bold tx-dark m0">
                   Mendukung <span>Kemajuan</span> Ekonomi Makro di{" "}
-                  <p className="text-primary d-inline">Indonesia</p> .
+                  <p style={{
+                    color: "#a07d08",
+                  }} className="d-inline">Indonesia</p> .
                 </h2>
               </div>
             </div>
@@ -98,13 +102,19 @@ const AgencyModern = () => {
         Feature Section Two
         ============================================== 
         */}
-      <div className="fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60">
+      <div
+        className="fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60"
+        id="whyUs"
+      >
         <div className="container">
           <OurAim />
         </div>
       </div>
 
-      <div className="pricing-section-one position-relative mt-200 lg-mt-120">
+      <div
+        className="pricing-section-one position-relative mt-200 lg-mt-120"
+        id="product"
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-8 m-auto">
@@ -113,11 +123,16 @@ const AgencyModern = () => {
                 data-aos="fade-up"
               >
                 <h3 className="text-uppercase fw-500 fw-bold">
-                  Product&amp; 
+                  Product &amp; {""}
                   <p className="text-warning d-inline">Services</p>
                 </h3>
-                <p className="pr-info text-warning fw-300" style={{fontSize : '0.9rem'}}>PENGEMBANGAN TEKNOLOGI INFORMASI UNTUK MENGDUKUNG DIGITALISASI INDUSTRI KEUANGAN MIKRO</p>
-                
+                <p
+                  className="pr-info text-warning fw-300"
+                  style={{ fontSize: "0.9rem" }}
+                >
+                  PENGEMBANGAN TEKNOLOGI INFORMASI UNTUK MENGDUKUNG DIGITALISASI
+                  INDUSTRI KEUANGAN MIKRO
+                </p>
               </div>
               {/* /.title-style-three */}
             </div>
@@ -194,12 +209,18 @@ const AgencyModern = () => {
          Client Section
         ==============================================
       */}
-      <div className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120">
+      <div
+        className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120"
+        id="clients"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-5 col-lg-6" data-data-aos="fade-right">
               <div className="title-style-four">
-                <div className="sc-title-two" style={{ color: "#6A45FF" }}>
+                <div
+                  className="sc-title-two fw-medium"
+                  style={{ color: "#a07d08" }}
+                >
                   Partners
                 </div>
                 <h2 className="main-title fw-500 tx-dark m0">
@@ -209,17 +230,17 @@ const AgencyModern = () => {
               </div>
               {/* /.title-style-four */}
               <p className="fs-20 pt-30 pe-xxl-5">
-                Bergabunglah bersama kami untuk memajukan sektor ekonomi di
-                Indonesia.
+                Bergabunglah bersama kami untuk memajukan sektor ekonomi di Indonesia
               </p>
+            </div>
+
+            <div className="col logo-wrapper d-flex flex-wrap justify-content-center align-items-center ml-20">
+              <LogoGroup />
             </div>
           </div>
         </div>
         {/* /.container */}
 
-        <div className="logo-wrapper d-flex flex-wrap justify-content-center align-items-center">
-          <LogoGroup />
-        </div>
         <Image
           src="/images/shape/shape_49.svg"
           alt="shape"
@@ -321,7 +342,7 @@ const AgencyModern = () => {
         Contact Section One
       ==============================================
       */}
-      <div className="container">
+      <div className="container" id="contact">
         <div className="contact-section-two text-start mt-80 lg-mt-60">
           <div className="row">
             <div className="col-lg-7">
