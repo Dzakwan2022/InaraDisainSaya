@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurAim = () => {
   const aimItems = [
     {
-      text: "Dengan total penjualan dan implementasi di ribuan Lembaga Keuangan dan Perbankan Mikro di seluruh Indonesia, menjadikan USSI sebagai satu-satunya provider sistem informasi yang paling berpengalaman dan paling memahami berbagai seluk beluk permasalahan implementasi sistem informasi di lembaga keuangan dan mikro. Produk-produk kami juga telah tersebar diseluruh Indonesia mulai dari Nangro Aceh Darussalam sampai Papua",
+      text: "Dengan total penjualan dan implementasi di ribuan Lembaga Keuangan dan Perbankan Mikro di seluruh Indonesia, menjadikan GMI sebagai satu-satunya provider sistem informasi yang paling berpengalaman dan paling memahami berbagai seluk beluk permasalahan implementasi sistem informasi di lembaga keuangan dan mikro. Produk-produk kami juga telah tersebar diseluruh Indonesia mulai dari Nangro Aceh Darussalam sampai Papua",
       list: [
         "Amazing communication.",
         "Best trending designing experience.",
@@ -17,12 +17,12 @@ const OurAim = () => {
     {
       question: "01 - Pengalaman",
       answer:
-        "Kemudahan akan transformasi bisnis anda ke dunia digital menjadi lebih mudah, cepat dan efisien dengan mengggunakan aplikasi software produk USSI. Optimal, mudah di integrasikan dan fleksibel dalam pengembangan bisnis menggunakan platform software USSI. Kematangan sistem yang relevan dengan perkembangan teknologi yang berkelanjutan.",
+        "Kemudahan akan transformasi bisnis anda ke dunia digital menjadi lebih mudah, cepat dan efisien dengan mengggunakan aplikasi software produk GMI. Optimal, mudah di integrasikan dan fleksibel dalam pengembangan bisnis menggunakan platform software GMI. Kematangan sistem yang relevan dengan perkembangan teknologi yang berkelanjutan.",
     },
     {
       question: "02 - Kompetensi Dan Komitmen",
       answer:
-        "Semua produk dan layanan yang dikembangkan oleh USSI Group, selalu berorientasi kepada produk dan layanan yang mendukung penguatan industri lembaga keuangan mikro. Produk utama adalah Integrated microBanking System (IBS), yang menjadi basic product untuk operasional lembaga keuangan mikro. Setgap broduk seri terbaru selalu merupakan penyempurnaan dari seri–seri sebelumnya. Ini adalah bukti komitmen sekaligus juga ‘CONTINUAL IMPROVEMENT’.",
+        "Semua produk dan layanan yang dikembangkan oleh GMI Group, selalu berorientasi kepada produk dan layanan yang mendukung penguatan industri lembaga keuangan mikro. Produk utama adalah Integrated microBanking System (IBS), yang menjadi basic product untuk operasional lembaga keuangan mikro. Setgap broduk seri terbaru selalu merupakan penyempurnaan dari seri–seri sebelumnya. Ini adalah bukti komitmen sekaligus juga ‘CONTINUAL IMPROVEMENT’.",
     },
     {
       question: "03 - Purna Jual",
@@ -32,7 +32,7 @@ const OurAim = () => {
     {
       question: "04 - Kualitas Produk",
       answer:
-        "Melalui kegiatan riset dan pengembangan yang terus-menerus, USSI berusaha memberikan produk-produk berkelas dunia (world class product). Berbagai metode dan teknik pengembangan software secara konsisten diterapkan: Object Oriented Programming, Iterative Process, UML (Unified Modelling Language), SQL Database System, Client-Server Architecture, Three-Tier Architecture, Component-Based System Development, Switching Technology berbasis protocol ISO8583, XML dan propietary protocol, ATM (Automatic Teller Machine) berbasis protocol NDC, EDC (Electronic Data Capture).",
+        "Melalui kegiatan riset dan pengembangan yang terus-menerus, GMI berusaha memberikan produk-produk berkelas dunia (world class product). Berbagai metode dan teknik pengembangan software secara konsisten diterapkan: Object Oriented Programming, Iterative Process, UML (Unified Modelling Language), SQL Database System, Client-Server Architecture, Three-Tier Architecture, Component-Based System Development, Switching Technology berbasis protocol ISO8583, XML dan propietary protocol, ATM (Automatic Teller Machine) berbasis protocol NDC, EDC (Electronic Data Capture).",
     },
   ];
 

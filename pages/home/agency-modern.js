@@ -266,7 +266,7 @@ const AgencyModern = () => {
 				Blog Section One
 			=====================================================
 			*/}
-      <div className="blog-section-one p-30 mt-180 lg-mt-120">
+      {/* <div className="blog-section-one p-30 mt-180 lg-mt-120">
         <div className="bg-wrapper pt-140 pb-170 lg-pt-100 lg-pb-100 position-relative">
           <div className="shapes shape-one" />
           <img
@@ -297,7 +297,7 @@ const AgencyModern = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /.blog-section-one */}
 
       {/* 
@@ -366,7 +366,7 @@ const AgencyModern = () => {
                   rel="noopener noreferrer"
                   href="https://themeforest.net/user/ib-themes"
                 >
-                  ib-themes
+                  - PT GUNUNG MAS INOVASI
                 </a>
               </p>
             </div>
