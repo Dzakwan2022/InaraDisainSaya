@@ -18,7 +18,7 @@ const Map = () => {
           <div className="gmap_canvas">
             <iframe
               className="gmap_iframe"
-              src="https://maps.google.com/maps?width=600&height=400&hl=en&q=dhaka collage&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+              src="https://maps.google.com/maps?width=600&height=400&hl=en&q=JL.SundaNo85,BandungJawaBarat,Bandung,JawaBarat40112, ID collage&t=&z=12&ie=UTF8&iwloc=B&output=embed"
             />
           </div>
         </div>
