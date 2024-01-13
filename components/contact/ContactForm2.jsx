@@ -8,11 +8,11 @@ const ContactForm2 = () => {
         <div className="col-12">
           <div className="input-group-meta form-group mb-35">
             <label className="d-block" htmlFor>
-              Name*
+              Nama*
             </label>
             <input
               type="text"
-              placeholder="John Doe"
+              placeholder="Name"
               name="name"
               required="required"
             />
@@ -26,9 +26,19 @@ const ContactForm2 = () => {
             </label>
             <input
               type="email"
-              placeholder="demo@domain.com"
+              placeholder="Email"
               name="email"
               required="required"
+
+              // placeholder style
+              // style={{
+              //   backgroundImage: "url(/images/icon/icon_163.svg)",
+              //   backgroundRepeat: "no-repeat",
+              //   backgroundPosition: "left 10px center",
+              //   backgroundSize: "20px",
+              //   paddingLeft: "40px",
+              // }}
+
             />
             <div className="help-block with-errors" />
           </div>
@@ -36,8 +46,8 @@ const ContactForm2 = () => {
         <div className="col-12">
           <div className="input-group-meta form-group mb-30">
             <textarea
-              placeholder="Your message*"
-              name="message"
+              placeholder="Pesan*"
+              name="Your Message"
               required="required"
               defaultValue={""}
             />
@@ -46,7 +56,7 @@ const ContactForm2 = () => {
         </div>
         <div className="col-12">
           <button className="btn-one fw-500 w-100 text-uppercase fs-14 d-block">
-            Send Message
+            Kirim
           </button>
         </div>
       </div>

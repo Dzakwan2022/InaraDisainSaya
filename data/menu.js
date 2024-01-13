@@ -84,6 +84,31 @@ export const pagesItems = [
   },
 ];
 
+export const profileItems = [
+  {
+    title: "Tentang Kami",
+    link: "#about",
+    subItems: [
+      { title: "About - Insurance", link: "/pages-menu/about-us-v1" },
+      { title: "About - Real Estate", link: "/pages-menu/about-us-v2" },
+      { title: "About - Agency", link: "/pages-menu/about-us-v3" },
+      { title: "About - Lead Generation", link: "/pages-menu/about-us-v4" },
+    ],
+  },
+  {
+    title: "Mengapa Kami",
+    link: "#whyUs",
+    subItems: [
+      { title: "Service - Insurance", link: "/pages-menu/service-v1" },
+      { title: "Service - Real Estate", link: "/pages-menu/service-v2" },
+      { title: "Service Lead Generation", link: "/pages-menu/service-v3" },
+      { title: "Service Agency", link: "/pages-menu/service-v4" },
+      { title: "Service Details", link: "/pages-menu/service-details" },
+    ],
+  },
+];
+
+
 export const portfolioItems = [
   { name: "Portfolio 01", link: "/portfolio/portfolio-v1" },
   { name: "Portfolio 02", link: "/portfolio/portfolio-v2" },

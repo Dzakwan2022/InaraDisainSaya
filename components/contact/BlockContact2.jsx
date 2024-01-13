@@ -19,7 +19,7 @@ const BlockContact2 = () => {
       content: (
         <>
           Open a chat or give us call at <br />
-          <a href="https://Wa.me/+6281220396797" className="mobile tran3s fs-20 mt-10 mb-20" target="_blank">
+          <a href="https://Wa.me/+6281220396797" className="mobile tran3s fs-20 mt-10 mb-20 text-warning fw-medium" target="_blank">
           +62 812-2039-6797
         </a>
         </>
