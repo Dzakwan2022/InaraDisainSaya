@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="col-xl-6 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo-gmi.png" alt="" width={400} data-aos="fade-up"/>
+            <img src="/images/logo/logo_gmi.png" alt="" width={400} data-aos="fade-up"/>
           </Link>
         </div>
         <img

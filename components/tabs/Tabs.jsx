@@ -34,6 +34,7 @@ const monthlyPricingPlans = [
 
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
+    
   };
     return (
       <>
@@ -102,9 +103,9 @@ const monthlyPricingPlans = [
                             {/* <div className="plan tx-dark">{plan.plan}</div> */}
                           </div>
                           <div className="pr-body">
-                            <ul className="style-none text-start">
+                            <ul className="style-none  text-start ">
                               {plan.features.map((feature, index) => (
-                                <li key={index}>{feature}</li>
+                                <li  key={index} >{feature}</li>
                               ))}
                             </ul>
                           </div>
@@ -151,11 +152,12 @@ const monthlyPricingPlans = [
                             <div className="plan tx-dark">{plan.plan}</div>
                           </div>
                           <div className="pr-body">
-                            <ul className="style-none text-start">
+                            <ul className="style-none  text-start" >
                               {plan.features.map((feature, index) => (
-                                <li key={index}>{feature}</li>
+                                <li key={index} >{feature}</li>
                               ))}
                             </ul>
+                            
                           </div>
                           {/* <div className="pr-footer pt-55 lg-pt-30">
                             <div className="trial-text opacity-75 mb-20">
