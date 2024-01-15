@@ -31,7 +31,12 @@ const Footer = () => {
       <div className="col-xl-6 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo-gmi.png" alt="" width={400} data-aos="fade-up"/>
+            <img
+              src="/images/logo/logo-gmi.png"
+              alt=""
+              width={400}
+              data-aos="fade-up"
+            />
           </Link>
         </div>
         <img
@@ -61,13 +66,19 @@ const Footer = () => {
         <p className="fs-17">
           {/* 2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states. */}
           JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
-
         </p>
         <a href="mailto:info@gminovasi.com" className="email tran3s fs-17">
           info@gminovasi.com
         </a>
         <br />
-        <a href="https://Wa.me/+6281220396797" className="mobile tran3s fs-20 mt-20 mb-30" target="_blank">
+        <a
+          href="https://Wa.me/+6281220396797"
+          style={{
+            color: "#a07d08",
+          }}
+          className="mobile tran3s  fs-20 mt-20 mb-30"
+          target="_blank"
+        >
           +62 812-2039-6797
         </a>
 

@@ -37,7 +37,7 @@ const AgencyModern = () => {
         Theme Hero Banner
         ============================================== 
         */}
-      <div className="hero-banner-one">
+      <section className="hero-banner-one">
         <div className="bg-wrapper" data-aos="fade">
           <Hero />
           <img
@@ -46,7 +46,7 @@ const AgencyModern = () => {
             className="lazy-img shapes shape-eight"
           />
         </div>
-      </div>
+      </section>
       {/* /.hero-banner-one */}
 
       {/* 
@@ -54,7 +54,7 @@ const AgencyModern = () => {
         Feature Section One
         ============================================== 
         */}
-      <div className="fancy-feature-one pt-170 lg-pt-140" id="about">
+      <section className="fancy-feature-one pt-170 lg-pt-140" id="about">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right">
@@ -94,7 +94,7 @@ const AgencyModern = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* /.fancy-feature-one */}
 
       {/* 
@@ -102,16 +102,16 @@ const AgencyModern = () => {
         Feature Section Two
         ============================================== 
         */}
-      <div
-        className="fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60"
+      <section
+        className="fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60 "
         id="whyUs"
       >
         <div className="container">
           <OurAim />
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         className="pricing-section-one position-relative mt-200 lg-mt-120"
         id="product"
       >
@@ -124,11 +124,11 @@ const AgencyModern = () => {
               >
                 <h3 className="text-uppercase fw-500 fw-bold">
                   Product &amp; {""}
-                  <p className="text-warning d-inline">Services</p>
+                  <p style={{color: '#a07d08'}} className=" d-inline">Services</p>
                 </h3>
                 <p
-                  className="pr-info text-warning fw-300"
-                  style={{ fontSize: "0.9rem" }}
+                  className="pr-info  fw-300"
+                  style={{ fontSize: "0.9rem", color: "#a07d08" }}
                 >
                   PENGEMBANGAN TEKNOLOGI INFORMASI UNTUK MENGDUKUNG DIGITALISASI
                   INDUSTRI KEUANGAN MIKRO
@@ -153,7 +153,7 @@ const AgencyModern = () => {
           alt="shape"
           className="lazy-img shapes shape-three"
         />
-      </div>
+      </section>
       {/* /.fancy-feature-two */}
 
       {/*
@@ -209,8 +209,8 @@ const AgencyModern = () => {
          Client Section
         ==============================================
       */}
-      <div
-        className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120"
+      <section
+        className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120 container"
         id="clients"
       >
         <div className="container">
@@ -280,7 +280,7 @@ const AgencyModern = () => {
           alt="logo"
           className="lazy-img shapes shape-three"
         /> */}
-      </div>
+      </section>
 
       {/*
 			=====================================================
@@ -342,7 +342,7 @@ const AgencyModern = () => {
         Contact Section One
       ==============================================
       */}
-      <div className="container" id="contact">
+      <section className="container" id="contact">
         <div className="contact-section-two text-start mt-80 lg-mt-60">
           <div className="row">
             <div className="col-lg-7">
@@ -367,14 +367,14 @@ const AgencyModern = () => {
           </div> */}
         </div>
         {/* /.contact-section-two */}
-      </div>
+      </section>
 
       {/*
 			=====================================================
 				Footer
 			=====================================================
 			*/}
-      <div className="footer-style-one theme-basic-footer position-relative">
+      <section className="footer-style-one theme-basic-footer position-relative">
         <div className="shapes shape-one" />
         <div className="container">
           <div className="inner-wrapper">
@@ -394,7 +394,7 @@ const AgencyModern = () => {
           </div>
           {/* /.inner-wrapper */}
         </div>
-      </div>
+      </section>
       {/* /.footer-style-one */}
     </>
   );

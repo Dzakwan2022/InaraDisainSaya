@@ -87,7 +87,7 @@ const OurAim = () => {
                 className="main-title fw-bold tx-dark m0"
                 style={{ fontSize: "2rem" }}
               >
-                Mengapa Harus <p className="text-warning d-inline">Pilih GMI</p>
+                Mengapa Harus <p className="primary-gmi d-inline">Pilih GMI</p>
                 ?
               </h4>
             </div>
