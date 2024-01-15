@@ -20,7 +20,7 @@ const ContactPage = () => {
 		Theme Inner Banner
 		============================================== 
 		*/}
-      <div className="inner-banner-three text-center p-30">
+      <div className="inner-banner-three text-center p">
         <div
           className="bg-wrapper text-center"
           style={{ backgroundImage: "url(/images/assets/bg-17.svg)" }}
