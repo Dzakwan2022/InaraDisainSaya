@@ -8,50 +8,25 @@ const HeaderCarousel = () => {
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
+
+        {/* item 1 */}
         <div className="carousel-item active" data-bs-interval="3000">
           <div className="container">
-            <div className="row">
+            <div className="row flex align-items-center">
               <div className="col">
-                <h1>Solusi Digitalisasi Keuangan</h1>
+                <h1 className="text-uppercase">PT Gunung Mas Inovasi</h1>
                 <p>
-                  adalah perusahaan Perseroran Terbatas yang bergerak dibidang
-                  Teknologi Infomasi yang mendukung DIGITALISASI berbagai
-                  Lembaga Kuangan (MICROFINANCE INSTITUTION-MFI) diantaranya
-                  LKM/S, BPR/S, BMT, KSP, USP, LPD, LKD, Bumdes, BKK, LPN. PT
-                  USSI berdiri sejak tahun 1994 dengan dukungan 9 subsidiary
-                  company.
+                  GMI Adalah Perusahaan IT berdomisili di kota bandung, kami
+                  hadir untuk memberikan solusi bagi perusahaan yang
+                  menginginkan kemajuan dan kestabilan sistem dalam usahanya.
+                  Dengan pengalaman kami sejak 2009 kami telah menangani
+                  berbagai perusahaan skala kecil, menengah ataupun besar, mulai
+                  dari Pemerintahan, BUMN serta perusahaan Swasta.
                 </p>
               </div>
               <div className="col">
                 <Image
-                  src="/images/gallery/img_01.jpg"
-                  alt="hero"
-                  width={500}
-                  height={500}
-                />
-
-              </div>
-            </div>
-          </div>
-          {/* <img src="..." class="d-block w-100" alt="..."> */}
-        </div>
-        <div className="carousel-item" data-bs-interval="3000">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <h1>Solusi Digitalisasi </h1>
-                <p>
-                  adalah perusahaan Perseroran Terbatas yang bergerak dibidang
-                  Teknologi Infomasi yang mendukung DIGITALISASI berbagai
-                  Lembaga Kuangan (MICROFINANCE INSTITUTION-MFI) diantaranya
-                  LKM/S, BPR/S, BMT, KSP, USP, LPD, LKD, Bumdes, BKK, LPN. PT
-                  USSI berdiri sejak tahun 1994 dengan dukungan 9 subsidiary
-                  company.
-                </p>
-              </div>
-              <div className="col">
-                <Image
-                  src="/images/gallery/img_01.jpg"
+                  src="/images/media/8961414_4040089.svg"
                   alt="hero"
                   width={500}
                   height={500}
@@ -59,26 +34,54 @@ const HeaderCarousel = () => {
               </div>
             </div>
           </div>
-
           {/* <img src="..." class="d-block w-100" alt="..."> */}
         </div>
+
+        {/* item 2 */}
         <div className="carousel-item" data-bs-interval="3000">
           <div className="container">
-            <div className="row">
+            <div className="row flex align-items-center">
               <div className="col">
-                <h1>Digitalisasi Keuangan</h1>
+                <h1 className="text-uppercase">Inovasi GMI </h1>
                 <p>
-                  adalah perusahaan Perseroran Terbatas yang bergerak dibidang
-                  Teknologi Infomasi yang mendukung DIGITALISASI berbagai
-                  Lembaga Kuangan (MICROFINANCE INSTITUTION-MFI) diantaranya
-                  LKM/S, BPR/S, BMT, KSP, USP, LPD, LKD, Bumdes, BKK, LPN. PT
-                  USSI berdiri sejak tahun 1994 dengan dukungan 9 subsidiary
-                  company.
+                  Telah banyak inovasi yang kami buat serta produk- produk di
+                  bidang IT, Antara Lain : Aplikasi Koperasi, Microfinancing,
+                  Sistem Management Resiko, Sistem Properti, Sistem Digital
+                  Marketing, serta Sistem UKM. ataupun Customization sistem,
+                  sesuai dengan permintaan Klien.
                 </p>
               </div>
               <div className="col">
                 <Image
-                  src="/images/gallery/img_01.jpg"
+                  src="/images/media/10838788_4536098.svg"
+                  alt="hero"
+                  width={500}
+                  height={500}
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* <img src="..." class="d-block w-100" alt="..."> */}
+        </div>
+
+        {/* item 3 */}
+        <div className="carousel-item" data-bs-interval="3000">
+          <div className="container">
+            <div className="row flex align-items-center">
+              <div className="col">
+                <h1 className="text-uppercase">Tim Profesional</h1>
+                <p>
+                  GMI Memiliki Tim yang profesional di Bidang IT Yang sudah
+                  berpengalam Sejak Tahun 2009, dimana kami berfokus kepada para
+                  mitra untuk mensolusikan masalah yang terjadi di perusahaan,
+                  baik integrasi ataupun solusi pembuatan sistem terkini untuk
+                  mempermudah proses yang dilakukan.
+                </p>
+              </div>
+              <div className="col">
+                <Image
+                  src="/images/media/25699262_7133186.svg"
                   alt="hero"
                   width={500}
                   height={500}
