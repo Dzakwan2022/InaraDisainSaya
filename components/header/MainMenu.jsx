@@ -40,10 +40,11 @@ const MainMenu = () => {
             <div className="logo">
               <Link href="/" className="d-block">
                 <Image
-                  src="/images/logo/logo_gmi.png"
+                  src="/images/logo/logo-gmi.png"
                   alt="logo"
-                  width={95}
-                  height={30}
+                  className="lazy-img"
+                  width={200}
+                  height={55}
                 />
               </Link>
             </div>
@@ -126,7 +127,6 @@ const MainMenu = () => {
 
           <li className="nav-item  dropdown">
             <a
-              // className="nav-link dropdown-toggle"
               className={
                 pagesItems.some((menu) =>
                   menu.subItems.some((elm) => isActive(elm.link))
@@ -183,25 +183,33 @@ const MainMenu = () => {
           {/* End li (pages) */}
 
           <li className="nav-item">
-            <a
+            {router.pathname !== "/" || "/#" ? (
+              <Link
+                href="/#product"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Produk
+              </Link>
+            ) : (
+              <a
+                href="#"
+                role="button"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Produk
+              </a>
+            )}
+            {/* <a
               className={`nav-link ${
                 portfolioItems.some((elm) => isActive(elm.link))
                   ? "active-menu"
                   : ""
               } `}
-              // className={
-              //   portfolioItems.some((elm) => isActive(elm.link))
-              //     ? "nav-link dropdown-toggle active-menu"
-              //     : "nav-link dropdown-toggle"
-              // }
               href="#product"
               role="button"
-              // data-bs-toggle="dropdown"
-              // data-bs-auto-close="outside"
-              // aria-expanded="false"
             >
               Produk
-            </a>
+            </a> */}
             <ul className="dropdown-menu">
               {portfolioItems.map((item, index) => (
                 <li key={index}>
@@ -220,21 +228,29 @@ const MainMenu = () => {
           {/* End li (portfolio) */}
 
           <li className="nav-item ">
-            <a
+            {router.pathname !== "/" || "/#" ? (
+              <Link
+                href="/#clients"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Klien
+              </Link>
+            ) : (
+              <a
+                href="#"
+                role="button"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Klien
+              </a>
+            )}
+            {/* <a
               className="nav-link "
-              // className={
-              //   blogItems.some((elm) => isActive(elm.link))
-              //     ? "nav-link dropdown-toggle active-menu"
-              //     : "nav-link dropdown-toggle"
-              // }
               href="#clients"
               role="button"
-              // data-bs-toggle="dropdown"
-              // data-bs-auto-close="outside"
-              // aria-expanded="false"
             >
               Klien
-            </a>
+            </a> */}
             <ul className="dropdown-menu">
               {blogItems.map((blog, index) => (
                 <li key={index}>
@@ -253,21 +269,29 @@ const MainMenu = () => {
           {/* End li (blog) */}
 
           <li className="nav-item ">
-            <a
+          {router.pathname !== "/" || "/#" ? (
+              <Link
+                href="/#contact"
+                className={`nav-link  ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Kontak
+              </Link>
+            ) : (
+              <a
+                href="#"
+                role="button"
+                className={`nav-link ${isActive("#") ? "active-menu" : ""} `}
+              >
+                Kontak
+              </a>
+            )}
+            {/* <a
               className="nav-link "
-              // className={
-              //   contactItems.some((elm) => isActive(elm.link))
-              //     ? "nav-link dropdown-toggle active-menu"
-              //     : "nav-link dropdown-toggle"
-              // }
               href="#contact"
               role="button"
-              // data-bs-toggle="dropdown"
-              // data-bs-auto-close="outside"
-              // aria-expanded="false"
             >
               Kontak
-            </a>
+            </a> */}
             <ul className="dropdown-menu">
               {contactItems.map((contact, index) => (
                 <li key={index}>
@@ -292,7 +316,7 @@ const MainMenu = () => {
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
             <Link
               href="/contact/contact-v1"
-              className="btn-twentyOne fw-500 tran3s"
+              className="btn-primary-gmi fw-500 tran3s"
             >
               Contact us
             </Link>
