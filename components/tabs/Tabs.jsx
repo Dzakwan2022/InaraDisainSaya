@@ -5,26 +5,19 @@ const monthlyPricingPlans = [
     {
       id: "PELAYANAN",
       features: [
-        "Mobile Banking",
-        "Merchant Qris",
-        "Notifikasi (WhatsApp/SMS)",
-        "Digital Cutomer",
-        "Virtual Account",
-        "ATM setor/Tarik tunai",
-        "Laku Pandai"
+        "PEMBUATAN APLIKASI MOBILE",
+        "PEMBUATAN SISTEM",
+        "INTEGRATOR",
+        "DATA CENTER"
       ],
     }
   ];
   const yearlyPricingPlans = [
     {
-      id: "OPERASIONAL",
+      id: "PRODUK",
       features: [
-        "IBS KONVENSIONAL",
-        "IBS Branchless",
-        "Otorisasi Online.",
-        "IBS Syariah",
-        "Mobile Collection",
-        "IBS Unit Digital"
+        "sistem Pengajuan KRESUN",
+        "Sistem Affiliate Marketplace"
       ],
     },
   ];
@@ -38,13 +31,11 @@ const monthlyPricingPlans = [
   };
     return (
       <>
-      <div className="card">
-        
-      </div>
         <ul
-          className="nav nav-pills justify-content-center fw-bold border-0"
+          className="nav nav-pills justify-content-center fw-bold border-0 mt-2 mb-15"
           data-aos="fade-up"
           role="tablist"
+
         >
           <li className="nav-item" role="presentation">
            
@@ -59,7 +50,7 @@ const monthlyPricingPlans = [
             >
             <img className="img-thumbnail bg-transparent border-0 mx-auto" width={90} src="/images/icon/icon_104.svg"/ >
 
-              PELAYANAN
+                PELAYANAN
             </button>
           </li>
           <ul>
@@ -76,7 +67,7 @@ const monthlyPricingPlans = [
               role="tab"
             >
                  <img className="img-thumbnail bg-transparent border-0 mx-auto" width={90} src="/images/icon/icon_105.svg"/>
-              OPERASIONAL
+              PRODUK
             </button>
           </li>
         </ul>

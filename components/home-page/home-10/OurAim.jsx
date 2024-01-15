@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurAim = () => {
   const aimItems = [
     {
-      text: "Dengan total penjualan dan implementasi di ribuan Lembaga Keuangan dan Perbankan Mikro di seluruh Indonesia, menjadikan GMI sebagai satu-satunya provider sistem informasi yang paling berpengalaman dan paling memahami berbagai seluk beluk permasalahan implementasi sistem informasi di lembaga keuangan dan mikro. Produk-produk kami juga telah tersebar diseluruh Indonesia mulai dari Nangro Aceh Darussalam sampai Papua",
+      text: "Dengan pengalaman yang kami miliki, dan berbagai sistem yang telah kami buat untuk kebutuhan klien, serta komitmen Purna jual yang tinggi, untuk mensupport setiap masalah yang muncul dalam proses operasional dengan cepat dan tepat. sehingga harapannya dengan support yang kami berikan, operasional yang terjadi disetiap perusahaan tidak terganggu.",
       list: [
         "Amazing communication.",
         "Best trending designing experience.",
