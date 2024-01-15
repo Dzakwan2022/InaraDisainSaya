@@ -25,18 +25,9 @@ const AgencyModern = () => {
   return (
     <>
       <Seo pageTitle="PT GMI - Gunung Mas Inovasi" />
-      {/* <!-- 
-        =============================================
-        Theme Default Menu
-        ============================================== 	
-        --> */}
+
       <Header />
-      {/* <!-- /.theme-main-menu --> */}
-      {/* 
-        =============================================
-        Theme Hero Banner
-        ============================================== 
-        */}
+
       <section className="hero-banner-one">
         <div className="bg-wrapper" data-aos="fade">
           <Hero />
@@ -47,13 +38,7 @@ const AgencyModern = () => {
           />
         </div>
       </section>
-      {/* /.hero-banner-one */}
 
-      {/* 
-        =============================================
-        Feature Section One
-        ============================================== 
-        */}
       <section className="fancy-feature-one pt-170 lg-pt-140" id="about">
         <div className="container">
           <div className="row align-items-center">
@@ -61,9 +46,15 @@ const AgencyModern = () => {
               <div className="title-style-one text-center text-lg-start">
                 <h2 className="main-title fw-bold tx-dark m0">
                   Mendukung <span>Kemajuan</span> Ekonomi Makro di{" "}
-                  <p style={{
-                    color: "#a07d08",
-                  }} className="d-inline">Indonesia</p> .
+                  <p
+                    style={{
+                      color: "#a07d08",
+                    }}
+                    className="d-inline"
+                  >
+                    Indonesia
+                  </p>{" "}
+                  .
                 </h2>
               </div>
             </div>
@@ -95,13 +86,7 @@ const AgencyModern = () => {
           </div>
         </div>
       </section>
-      {/* /.fancy-feature-one */}
 
-      {/* 
-        =============================================
-        Feature Section Two
-        ============================================== 
-        */}
       <section
         className="fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60 "
         id="whyUs"
@@ -112,7 +97,7 @@ const AgencyModern = () => {
       </section>
 
       <section
-        className="pricing-section-one position-relative mt-200 lg-mt-120"
+        className="pricing-section-one pt-170 lg-pt-14"
         id="product"
       >
         <div className="container">
@@ -124,7 +109,9 @@ const AgencyModern = () => {
               >
                 <h3 className="text-uppercase fw-500 fw-bold">
                   Product &amp; {""}
-                  <p style={{color: '#a07d08'}} className=" d-inline">Services</p>
+                  <p style={{ color: "#a07d08" }} className=" d-inline">
+                    Services
+                  </p>
                 </h3>
                 <p
                   className="pr-info  fw-300"
@@ -154,63 +141,9 @@ const AgencyModern = () => {
           className="lazy-img shapes shape-three"
         />
       </section>
-      {/* /.fancy-feature-two */}
 
-      {/*
-			=====================================================
-				Feedback Section One
-			=====================================================
-			*/}
-      {/* <div
-        className="feedback-section-one position-relative p-30 mt-200 lg-mt-130 "
-        data-aos="fade-up"
-      >
-        <div className="bg-wrapper position-relative pt-150 pb-180 lg-pt-100 lg-pb-120">
-          <img
-            src="/images/shape/shape_14.svg"
-            alt="img"
-            className="lazy-img shapes shape-one"
-          />
-          <div className="shapes shape-two" />
-          <div className="shapes shape-three" />
-          <Testimonial />
-        </div>
-      </div> */}
-      {/* /.feedback-section-one */}
-
-      {/* 
-			=============================================
-				Feature Section Two
-			============================================== 
-			*/}
-      {/* <div className="fancy-feature-two position-relative pt-250 lg-pt-120">
-        <div className="container">
-          <FancyBlock />
-        </div>
-      </div> */}
-      {/* /.fancy-feature-two */}
-
-      {/*
-			=====================================================
-				Card Style Two
-			=====================================================
-			*/}
-      {/* <div className="wrapper pt-110 lg-pt-80">
-        <div className="container">
-          <div className="row justify-content-between">
-            <FancyBlock2 />
-          </div>
-        </div>
-      </div> */}
-      {/* /.wrapper */}
-
-      {/* 
-        =============================================
-         Client Section
-        ==============================================
-      */}
       <section
-        className="partner-section-two position-relative mt-225 mb-250 md-mt-120 md-mb-120 container"
+        className="partner-section-two position-relative  pt-170 lg-pt-14"
         id="clients"
       >
         <div className="container">
@@ -230,7 +163,8 @@ const AgencyModern = () => {
               </div>
               {/* /.title-style-four */}
               <p className="fs-20 pt-30 pe-xxl-5">
-                Bergabunglah bersama kami untuk memajukan sektor ekonomi di Indonesia
+                Bergabunglah bersama kami untuk memajukan sektor ekonomi di
+                Indonesia
               </p>
             </div>
 
@@ -239,7 +173,6 @@ const AgencyModern = () => {
             </div>
           </div>
         </div>
-        {/* /.container */}
 
         <Image
           src="/images/shape/shape_49.svg"
@@ -282,67 +215,7 @@ const AgencyModern = () => {
         /> */}
       </section>
 
-      {/*
-			=====================================================
-				Blog Section One
-			=====================================================
-			*/}
-      {/* <div className="blog-section-one p-30 mt-180 lg-mt-120">
-        <div className="bg-wrapper pt-140 pb-170 lg-pt-100 lg-pb-100 position-relative">
-          <div className="shapes shape-one" />
-          <img
-            src="/images/shape/shape_16.svg"
-            alt="icon"
-            className="lazy-img shapes shape-two"
-          />
-          <div className="shapes shape-three" />
-
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-sm-7">
-                <div className="title-style-one text-center text-sm-start xs-mb-30">
-                  <h2 className="main-title fw-bold tx-dark m0">
-                    Inside <span>story</span> of our company.
-                  </h2>
-                </div>
-              </div>
-              <div className="col-lg-6 col-sm-5 ms-auto d-flex justify-content-center justify-content-sm-end">
-                <Link href="/blog/blog-v1" className="btn-one fw-500">
-                  Go to Blog
-                </Link>
-              </div>
-            </div>
-
-            <div className="row pt-50 lg-pt-30">
-              <Blog />
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* /.blog-section-one */}
-
-      {/* 
-			=============================================
-				Wrapper
-			============================================== 
-			*/}
-      {/* <FancyBanner /> */}
-      {/* /.wrapper */}
-
-      {/*
-			=====================================================
-				Fancy Short Banner One
-			=====================================================
-			*/}
-      {/* <CallToActions /> */}
-      {/* /.fancy-short-banner-one */}
-
-      {/* 
-      =============================================
-        Contact Section One
-      ==============================================
-      */}
-      <section className="container" id="contact">
+      <section className=" pt-100 lg-pt-14" id="contact">
         <div className="contact-section-two text-start mt-80 lg-mt-60">
           <div className="row">
             <div className="col-lg-7">
@@ -371,7 +244,7 @@ const AgencyModern = () => {
 
       {/*
 			=====================================================
-				Footer
+				Footer section
 			=====================================================
 			*/}
       <section className="footer-style-one theme-basic-footer position-relative">

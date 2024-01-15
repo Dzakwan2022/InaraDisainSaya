@@ -146,20 +146,15 @@ const OurAim = () => {
       <div className="col-md-6 order-md-first " data-aos="fade-right">
         <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-10 md-mt-50 sm-mt-80">
           {imageItems.map((item, index) => (
-            <>
-              <img
-                key={index}
-                src={item.src}
-                alt={item.alt}
-                className={item.className}
-              />
+            <div key={index}>
+              <img src={item.src} alt={item.alt} className={item.className} />
               {/* <Image 
             src={item.src}
             alt={item.alt}
             width={500}
             height={500}
             /> */}
-            </>
+            </div>
           ))}
 
           {/* <div className="card-one" data-aos="fade-up" data-aos-delay="200">

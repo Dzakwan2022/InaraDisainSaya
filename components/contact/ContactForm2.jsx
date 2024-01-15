@@ -57,7 +57,6 @@ const ContactForm2 = () => {
               //   backgroundSize: "20px",
               //   paddingLeft: "40px",
               // }}
-
             />
             <div className="help-block with-errors" />
           </div>
@@ -74,11 +73,16 @@ const ContactForm2 = () => {
           </div>
         </div>
         <ReCAPTCHA
-        sitekey="6Lfc9lApAAAAAP5kL-dDlJhaCIz6zQptk5QDli2P"
-        onChange={handleRecaptchaVerify}
-      />
+          className="py-3"
+          sitekey="6Lfc9lApAAAAAP5kL-dDlJhaCIz6zQptk5QDli2P"
+          onChange={handleRecaptchaVerify}
+        />
         <div className="col-12">
-          <button className="btn-one fw-500 w-100 text-uppercase fs-14 d-block" type="submit" disabled={!isRecaptchaVerified}>
+          <button
+            className="btn-one fw-500 w-100 text-uppercase fs-14 d-block"
+            type="submit"
+            disabled={!isRecaptchaVerified}
+          >
             Kirim
           </button>
         </div>

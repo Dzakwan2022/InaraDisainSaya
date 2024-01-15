@@ -1134,7 +1134,8 @@ body .btn-twentySix:hover:after {
 .theme-main-menu .contact-btn-one {
   line-height: 52px;
   border-radius: 6px;
-  background: #000;
+  // background: #000;
+  background: var(--primary-gmi);
   padding: 0 35px;
 }
 .theme-main-menu .contact-btn-one:hover {
@@ -2785,7 +2786,9 @@ body .btn-twentySix:hover:after {
 .pricing-section-one .shape-one {
   width: 293px;
   height: 293px;
-  background: #57f2cf;
+  // background: #57f2cf;
+  // background : var(--prim);
+  background: #a07d08;
   top: 24%;
   left: -150px;
   animation: jumpTwo 4s infinite linear;
