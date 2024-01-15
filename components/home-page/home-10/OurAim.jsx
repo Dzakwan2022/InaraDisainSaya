@@ -17,22 +17,22 @@ const OurAim = () => {
     {
       question: "01 - Pengalaman",
       answer:
-        "Kemudahan akan transformasi bisnis anda ke dunia digital menjadi lebih mudah, cepat dan efisien dengan mengggunakan aplikasi software produk GMI. Optimal, mudah di integrasikan dan fleksibel dalam pengembangan bisnis menggunakan platform software GMI. Kematangan sistem yang relevan dengan perkembangan teknologi yang berkelanjutan.",
+        "Saat Anda beralih ke ranah digital, mempermudah transformasi bisnis menjadi lebih lancar, cepat, dan efisien dapat dicapai dengan memanfaatkan aplikasi perangkat lunak produk GMI. Platform perangkat lunak GMI memberikan kemudahan, integrasi yang sederhana, dan fleksibilitas dalam pengembangan bisnis Anda. Sistem ini telah matang dan sesuai dengan perkembangan teknologi yang terus berlanjut.",
     },
     {
       question: "02 - Kompetensi Dan Komitmen",
       answer:
-        "Semua produk dan layanan yang dikembangkan oleh GMI Group, selalu berorientasi kepada produk dan layanan yang mendukung penguatan industri lembaga keuangan mikro. Produk utama adalah Integrated microBanking System (IBS), yang menjadi basic product untuk operasional lembaga keuangan mikro. Setgap broduk seri terbaru selalu merupakan penyempurnaan dari seri–seri sebelumnya. Ini adalah bukti komitmen sekaligus juga ‘CONTINUAL IMPROVEMENT’.",
+        "Seluruh rangkaian produk dan layanan yang diproduksi oleh GMI Group selalu difokuskan pada pengembangan produk dan layanan yang mendukung penguatan industri lembaga keuangan mikro. Produk utamanya adalah Integrated microBanking System (IBS), yang menjadi dasar operasional bagi lembaga keuangan mikro. Setiap seri produk terbaru merupakan penyempurnaan dari seri sebelumnya, mencerminkan komitmen yang berkelanjutan terhadap 'PENINGKATAN BERKALA' atau 'CONTINUAL IMPROVEMENT'.",
     },
     {
       question: "03 - Purna Jual",
       answer:
-        "Untuk memperykuat layanan purna jual, telah terbentuk jaringan pelayanan di 12 kota besar di seluruh Indonesia, disamping juga diimbangi dan dibarengi dengan penguatan kapasitas SDM sehingga terbentuk jaringan yang bukan hanya kuat secara kuantitas tapi juga berkualitas.Upaya peningkatan kualitas pelayanan juga dilakukan melalui penyempurnaan produk sehingga menjadi semakin mudah dalam pelacakan kerusakan / kesalahan (troubleshooting), backup system dan pemulihan sistem (system crash recovery).",
+        "Untuk meningkatkan layanan purna jual, kami telah menetapkan jaringan pelayanan di 12 kota utama di seluruh Indonesia. Langkah ini tidak hanya didukung oleh ekspansi geografis, tetapi juga disertai dengan peningkatan kapasitas sumber daya manusia (SDM), menciptakan jaringan yang tidak hanya kuat dalam jumlah, tetapi juga memiliki kualitas yang unggul. Upaya peningkatan kualitas layanan juga dilakukan melalui penyempurnaan produk, menjadikannya lebih mudah untuk melacak kerusakan atau kesalahan (troubleshooting), melakukan backup sistem, dan memulihkan sistem dari kegagalan (system crash recovery).",
     },
     {
       question: "04 - Kualitas Produk",
       answer:
-        "Melalui kegiatan riset dan pengembangan yang terus-menerus, GMI berusaha memberikan produk-produk berkelas dunia (world class product). Berbagai metode dan teknik pengembangan software secara konsisten diterapkan: Object Oriented Programming, Iterative Process, UML (Unified Modelling Language), SQL Database System, Client-Server Architecture, Three-Tier Architecture, Component-Based System Development, Switching Technology berbasis protocol ISO8583, XML dan propietary protocol, ATM (Automatic Teller Machine) berbasis protocol NDC, EDC (Electronic Data Capture).",
+        "Dengan melanjutkan kegiatan riset dan pengembangan secara berkesinambungan, GMI berkomitmen untuk menghasilkan produk-produk yang memiliki standar dunia. Berbagai metode dan teknik pengembangan perangkat lunak diterapkan secara konsisten, seperti Object Oriented Programming, Iterative Process, UML (Unified Modelling Language), SQL Database System, Client-Server Architecture, Three-Tier Architecture, Component-Based System Development, Switching Technology berbasis protokol ISO8583, XML, dan protokol propietary, serta ATM (Automatic Teller Machine) berbasis protokol NDC dan EDC (Electronic Data Capture).",
     },
   ];
 
