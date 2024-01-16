@@ -3,13 +3,8 @@ import Image from "next/image";
 const OurAim = () => {
   const aimItems = [
     {
-      text: "Dengan pengalaman yang kami miliki, dan berbagai sistem yang telah kami buat untuk kebutuhan klien, serta komitmen Purna jual yang tinggi, untuk mensupport setiap masalah yang muncul dalam proses operasional dengan cepat dan tepat. sehingga harapannya dengan support yang kami berikan, operasional yang terjadi disetiap perusahaan tidak terganggu.",
-      list: [
-        "Amazing communication.",
-        "Best trending designing experience.",
-        "Email & Live chat.",
-      ],
-      link: "/pages-menu/about-us-v1",
+      text: "Dengan pengalaman & pengetahuan yang telah kami miliki dan beragam sistem yang telah kami kembangkan untuk memenuhi kebutuhan klien, bersama dengan dedikasi yang tinggi terhadap kualitas pekerjaan, kami siap mendukung penyelesaian cepat dan akurat terhadap setiap masalah yang muncul. Dengan dukungan yang kami berikan, harapannya agar setiap permasalahan di dalam operasional perusahaan dapat terselesaikan.",
+      
     },
   ];
 
@@ -22,17 +17,17 @@ const OurAim = () => {
     {
       question: "02 - Kompetensi Dan Komitmen",
       answer:
-        "Seluruh rangkaian produk dan layanan yang diproduksi oleh GMI Group selalu difokuskan pada pengembangan produk dan layanan yang mendukung penguatan industri lembaga keuangan mikro. Produk utamanya adalah Integrated microBanking System (IBS), yang menjadi dasar operasional bagi lembaga keuangan mikro. Setiap seri produk terbaru merupakan penyempurnaan dari seri sebelumnya, mencerminkan komitmen yang berkelanjutan terhadap 'PENINGKATAN BERKALA' atau 'CONTINUAL IMPROVEMENT'.",
+        "Seluruh rangkaian produk dan layanan yang diproduksi oleh GMI Group selalu difokuskan pada pengembangan produk dan layanan yang mendukung penguatan industri lembaga keuangan mikro. Produk utamanya adalah Sistem Pengajuan Pembiayaan & Sistem Mikro Bank Terintegrasi, yang menjadi dasar operasional bagi lembaga keuangan mikro. Setiap seri produk terbaru merupakan penyempurnaan dari seri sebelumnya, mencerminkan komitmen yang berkelanjutan terhadap 'PENINGKATAN BERKALA' atau 'CONTINUAL IMPROVEMENT'.",
     },
     {
-      question: "03 - Purna Jual",
+      question: "03 - Nilai Jual",
       answer:
-        "Untuk meningkatkan layanan purna jual, kami telah menetapkan jaringan pelayanan di 12 kota utama di seluruh Indonesia. Langkah ini tidak hanya didukung oleh ekspansi geografis, tetapi juga disertai dengan peningkatan kapasitas sumber daya manusia (SDM), menciptakan jaringan yang tidak hanya kuat dalam jumlah, tetapi juga memiliki kualitas yang unggul. Upaya peningkatan kualitas layanan juga dilakukan melalui penyempurnaan produk, menjadikannya lebih mudah untuk melacak kerusakan atau kesalahan (troubleshooting), melakukan backup sistem, dan memulihkan sistem dari kegagalan (system crash recovery).",
+        "Untuk meningkatkan layanan purna jual, kami telah menetapkan jaringan di seluruh wilayah Indonesia. Langkah ini tidak hanya didukung oleh ekspansi geografis, tetapi juga disertai dengan peningkatan kapasitas sumber daya manusia (SDM), menciptakan jaringan yang tidak hanya kuat dalam jumlah, tetapi juga memiliki kualitas yang unggul. Upaya peningkatan kualitas layanan juga dilakukan melalui penyempurnaan produk, menjadikannya lebih mudah untuk melacak kerusakan atau kesalahan (troubleshooting), melakukan backup sistem, dan memulihkan sistem dari kegagalan (system crash recovery).",
     },
     {
       question: "04 - Kualitas Produk",
       answer:
-        "Dengan melanjutkan kegiatan riset dan pengembangan secara berkesinambungan, GMI berkomitmen untuk menghasilkan produk-produk yang memiliki standar dunia. Berbagai metode dan teknik pengembangan perangkat lunak diterapkan secara konsisten, seperti Object Oriented Programming, Iterative Process, UML (Unified Modelling Language), SQL Database System, Client-Server Architecture, Three-Tier Architecture, Component-Based System Development, Switching Technology berbasis protokol ISO8583, XML, dan protokol propietary, serta ATM (Automatic Teller Machine) berbasis protokol NDC dan EDC (Electronic Data Capture).",
+        "Dengan melanjutkan kegiatan riset dan pengembangan secara berkesinambungan, GMI berkomitmen untuk menghasilkan produk-produk yang memiliki standar dunia. Berbagai metode dan teknik pengembangan perangkat lunak diterapkan secara konsisten dan terstruktur.",
     },
   ];
 
@@ -74,7 +69,35 @@ const OurAim = () => {
 
   return (
     <div className="row">
-      <div className="col-lg-5 col-md-6 ms-auto order-md-last">
+      <div className="col-md-6 order-md-first " data-aos="fade-right">
+        <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-10 md-mt-50 sm-mt-80">
+          {imageItems.map((item, index) => (
+            <div key={index}>
+              <img src={item.src} alt={item.alt} className={item.className} />
+              {/* <Image 
+            src={item.src}
+            alt={item.alt}
+            width={500}
+            height={500}
+            /> */}
+            </div>
+          ))}
+
+          {/* <div className="card-one" data-aos="fade-up" data-aos-delay="200">
+            <div className="icon d-flex align-items-center justify-content-center rounded-circle">
+              <img src={cardItem.imgSrc} alt="shape" className="lazy-img" />
+            </div>
+            <div className="name fs-18 fw-500 tx-dark mb-10">
+              - {cardItem.name},{" "}
+              <span className="opacity-50">{cardItem.position}</span>
+            </div>
+            <p className="fs-18 m0">{cardItem.text}</p>
+          </div> */}
+          {/* /.card-one */}
+        </div>
+        {/* /.img-meta */}
+      </div>
+      <div className="col-lg-6 col-md-7 ms-auto order-md-last">
         {aimItems.map((item, index) => (
           <div
             className="block-style-one pt-35"
@@ -141,36 +164,7 @@ const OurAim = () => {
           Discover More <i className="bi bi-arrow-right"></i>
         </Link> */}
       </div>
-      {/* End .col */}
-
-      <div className="col-md-6 order-md-first " data-aos="fade-right">
-        <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-10 md-mt-50 sm-mt-80">
-          {imageItems.map((item, index) => (
-            <div key={index}>
-              <img src={item.src} alt={item.alt} className={item.className} />
-              {/* <Image 
-            src={item.src}
-            alt={item.alt}
-            width={500}
-            height={500}
-            /> */}
-            </div>
-          ))}
-
-          {/* <div className="card-one" data-aos="fade-up" data-aos-delay="200">
-            <div className="icon d-flex align-items-center justify-content-center rounded-circle">
-              <img src={cardItem.imgSrc} alt="shape" className="lazy-img" />
-            </div>
-            <div className="name fs-18 fw-500 tx-dark mb-10">
-              - {cardItem.name},{" "}
-              <span className="opacity-50">{cardItem.position}</span>
-            </div>
-            <p className="fs-18 m0">{cardItem.text}</p>
-          </div> */}
-          {/* /.card-one */}
-        </div>
-        {/* /.img-meta */}
-      </div>
+      {/* End .col */}  
     </div>
   );
 };

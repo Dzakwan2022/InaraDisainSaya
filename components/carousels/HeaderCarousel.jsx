@@ -33,12 +33,12 @@ const HeaderCarousel = () => {
                 GMI Adalah Perusahaan IT berdomisili di kota bandung, kami hadir
                 untuk memberikan solusi bagi perusahaan yang menginginkan
                 kemajuan dan kestabilan sistem dalam usahanya. Dengan pengalaman
-                kami sejak 2009 kami telah menangani berbagai perusahaan skala
+                kami sejak 2022 kami telah menangani berbagai perusahaan skala
                 kecil, menengah ataupun besar, mulai dari Pemerintahan, BUMN
                 serta perusahaan Swasta.
               </p>
             </div>
-            <div className="col">
+            <div className="col-md">
               <Image
                 src="/images/media/8961414_4040089.svg"
                 alt="hero"
@@ -62,7 +62,7 @@ const HeaderCarousel = () => {
                 sesuai dengan permintaan Klien.
               </p>
             </div>
-            <div className="col">
+            <div className="col-md">
               <Image
                 src="/images/media/10838788_4536098.svg"
                 alt="hero"
@@ -80,13 +80,13 @@ const HeaderCarousel = () => {
               <h1 className="text-uppercase">Tim Profesional</h1>
               <p>
                 GMI Memiliki Tim yang profesional di Bidang IT Yang sudah
-                berpengalam Sejak Tahun 2009, dimana kami berfokus kepada para
+                berpengalam Sejak Tahun 2022, dimana kami berfokus kepada para
                 mitra untuk mensolusikan masalah yang terjadi di perusahaan,
                 baik integrasi ataupun solusi pembuatan sistem terkini untuk
                 mempermudah proses yang dilakukan.
               </p>
             </div>
-            <div className="col">
+            <div className="col-md">
               <Image
                 src="/images/media/25699262_7133186.svg"
                 alt="hero"

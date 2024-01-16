@@ -6,9 +6,11 @@ const monthlyPricingPlans = [
       id: "PELAYANAN",
       features: [
         "PEMBUATAN APLIKASI MOBILE",
-        "PEMBUATAN SISTEM",
+        "PEMBUATAN APLIKASI WEBSITE",
+        "PEMBUATAN APLIKASI DESKTOP",
+        "PEMBUATAN SDK",
         "INTEGRATOR",
-        "DATA CENTER"
+        "DATA CENTER",
       ],
     }
   ];
@@ -17,7 +19,9 @@ const monthlyPricingPlans = [
       id: "PRODUK",
       features: [
         "sistem Pengajuan KRESUN",
-        "Sistem Affiliate Marketplace"
+        "Sistem Affiliate Marketplace",
+        "Point Of Sale",
+        "Sistem Rekonsiliasi"
       ],
     },
   ];
@@ -87,7 +91,7 @@ const monthlyPricingPlans = [
                         >
                           <div className="pr-header pb-2 mb-5">
                             <div className="text-start fw-300">
-                              <h4 className="text-warning">
+                              <h4 style={{color: "#b38433"}}>
                               {plan.id}
                               </h4>
                             </div>
@@ -135,7 +139,7 @@ const monthlyPricingPlans = [
                         >
                           <div className="pr-header pb-3 mb-4">
                             <div className="text-start fw-300">
-                              <h4 className="text-warning">
+                              <h4 style={{color: "#b38433"}}>
                               {plan.id}
 
                               </h4>
