@@ -4,23 +4,23 @@ const services = [
   {
     icon: "images/icon/icon_104.svg",
     title: "Home Loan",
-    delayAnim: 0,
+    delayAnim: 6,
   },
   {
     icon: "images/icon/icon_105.svg",
     title: "Travel Insurance",
     delayAnim: 100,
   },
-  {
-    icon: "images/icon/icon_106.svg",
-    title: "Insure the Car",
-    delayAnim: 200,
-  },
-  {
-    icon: "images/icon/icon_107.svg",
-    title: "Health Insurance",
-    delayAnim: 300,
-  },
+  // {
+  //   icon: "images/icon/icon_106.svg",
+  //   title: "Insure the Car",
+  //   delayAnim: 200,
+  // },
+  // {
+  //   icon: "images/icon/icon_107.svg",
+  //   title: "Health Insurance",
+  //   delayAnim: 300,
+  // },
 ];
 
 const Service = () => {
@@ -33,7 +33,7 @@ const Service = () => {
           data-aos="fade-up"
           data-aos-delay={service.delayAnim}
         >
-          <div className="card-style-sixteen tran3s text-center position-relative mt-30">
+          <div className="card-style-sixteen tran3s shadow text-center position-relative mt-30">
             <div className="icon">
               <img src={service.icon} alt="" className="lazy-img m-auto" />
             </div>

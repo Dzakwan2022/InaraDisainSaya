@@ -1,20 +1,51 @@
+import Image from "next/image";
 const FancyBlock2 = () => {
   const cardsData = [
     {
-      icon: "/images/icon/icon_09.svg",
-      title: "Quality Design",
+      icon: "/images/icon/icon_46.svg",
+      title: "Transaksi ke Bank Lain",
       subtitle: "We do focus on quality not quantity.",
       delay: "100",
     },
     {
+      icon: "/images/icon/icon_28.svg",
+      title: "Notifikasi Transaksi",
+      subtitle: "Expert ready to help you anytime.",
+      delay: "200",
+    },
+    {
+      icon: "/images/icon/icon_45.svg",
+      title: "Transaksi Pembelian",
+      subtitle: "All design compitable with mobile.",
+      delay: "300",
+    },
+    {
+      icon: "/images/icon/icon_14.svg",
+      title: "Manajemen Transaksi",
+      subtitle: "All design compitable with mobile.",
+      delay: "300",
+    },
+    {
+      icon: "/images/icon/icon_09.svg",
+      title: "Transaksi Top Up Saldo",
+      subtitle: "All design compitable with mobile.",
+      delay: "300",
+    },
+    {
+      icon: "/images/icon/icon_107.svg",
+      title: "Simulasi Perhitungan Otomatis",
+      subtitle: "All design compitable with mobile.",
+      delay: "300",
+    },
+    {
       icon: "/images/icon/icon_10.svg",
-      title: "Expert Support",
+      title: "Core Banking System",
       subtitle: "Expert ready to help you anytime.",
       delay: "200",
     },
     {
       icon: "/images/icon/icon_11.svg",
-      title: "Mobile Friendly",
+      title: "Agen dan Merchant",
       subtitle: "All design compitable with mobile.",
       delay: "300",
     },
@@ -25,18 +56,25 @@ const FancyBlock2 = () => {
       {cardsData.map((card, index) => (
         <div
           key={index}
-          className="col-lg-3 col-md-4 col-sm-6"
+          className="col-lg-3 col-md-4 col-sm-6 gap-30 "
           data-aos="fade-up"
           data-aos-delay={card.delay}
         >
           <div className="card-style-two mt-40">
-            <div className="icon d-flex align-items-end">
-              <img src={card.icon} alt="" className="lazy-img" />
+            <div className="icon ">
+              {/* <img src={card.icon} alt="" className="lazy-img mx-auto" /> */}
+              <Image
+                width={75}
+                height={75}
+                src={card.icon}
+                alt="img"
+                className="lazy-img mx-auto"
+              />
             </div>
-            <span className="d-inline-block text-uppercase fs-14 opacity-75 mt-30 mb-10">
+            <p className=" text-uppercase fs-14 opacity-75 mt-30 mb-10 text-center">
               {card.title}
-            </span>
-            <h4 className="fw-500 m0">{card.subtitle}</h4>
+            </p>
+            {/* <h4 className="fw-500 m0">{card.subtitle}</h4> */}
           </div>
           {/* /.card-style-two */}
         </div>

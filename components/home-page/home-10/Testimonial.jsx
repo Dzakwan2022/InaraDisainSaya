@@ -69,7 +69,9 @@ const Testimonial = () => {
           <div className="col-lg-6 col-md-7">
             <div className="title-style-one text-center text-md-start">
               <h2 className="main-title fw-bold tx-dark m0">
-                What’s <span>Our Client</span> Say About us.
+                {/* What’s <span>Our Client</span> Say About us. */}
+
+                Client Kami
               </h2>
             </div>
             {/* /.title-style-one */}

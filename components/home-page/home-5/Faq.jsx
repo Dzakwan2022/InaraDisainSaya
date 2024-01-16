@@ -52,7 +52,7 @@ const Faq = () => {
             data-bs-parent="#accordionOne"
           >
             <div className="accordion-body">
-              <p>{item.answer}</p>
+              <p className="">{item.answer}</p>
             </div>
           </div>
         </div>

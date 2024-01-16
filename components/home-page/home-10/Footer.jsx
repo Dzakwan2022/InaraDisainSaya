@@ -3,35 +3,40 @@ import Social from "./Social";
 
 const Footer = () => {
   const footerLinks = [
-    {
-      title: "Links",
-      links: [
-        { label: "Home", href: "/" },
-        { label: "Pricing", href: "/pages-menu/pricing" },
-        { label: "About us", href: "/pages-menu/about-us-v1" },
-        { label: "Service", href: "/pages-menu/service-v1" },
-        { label: "Blog", href: "/blog/blog-v1" },
-      ],
-      classes: "col-lg-2 col-sm-4 ms-auto mb-30",
-    },
-    {
-      title: "Help & Support",
-      links: [
-        { label: "FAQ", href: "/pages-menu/faq" },
-        { label: "Blog", href: "/blog/blog-v1" },
-        { label: "Contact Us", href: "/contact" },
-        { label: "Support", href: "/contact" },
-      ],
-      classes: "col-lg-3 col-sm-4 mb-30",
-    },
+    // {
+    //   title: "Links",
+    //   links: [
+    //     { label: "Home", href: "/" },
+    //     { label: "Pricing", href: "/pages-menu/pricing" },
+    //     { label: "About us", href: "/pages-menu/about-us-v1" },
+    //     { label: "Service", href: "/pages-menu/service-v1" },
+    //     { label: "Blog", href: "/blog/blog-v1" },
+    //   ],
+    //   classes: "col-lg-2 col-sm-4 ms-auto mb-30",
+    // },
+    // {
+    //   title: "Help & Support",
+    //   links: [
+    //     { label: "FAQ", href: "/pages-menu/faq" },
+    //     { label: "Blog", href: "/blog/blog-v1" },
+    //     { label: "Contact Us", href: "/contact" },
+    //     { label: "Support", href: "/contact" },
+    //   ],
+    //   classes: "col-lg-3 col-sm-4 mb-30",
+    // },
   ];
 
   return (
     <div className="row">
-      <div className="col-xl-3 col-lg-2 footer-intro mb-40">
+      <div className="col-xl-6 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_01.png" alt="" width={95} />
+            <img
+              src="/images/logo/logo-gmi.png"
+              alt=""
+              width={400}
+              data-aos="fade-up"
+            />
           </Link>
         </div>
         <img
@@ -56,17 +61,25 @@ const Footer = () => {
       ))}
       {/* End menu data */}
 
-      <div className="col-xl-3 col-sm-4 mb-30">
-        <h5 className="footer-title tx-dark fw-500">Our Address</h5>
+      <div className="col-xl-6 col-sm-4 mb-30" data-aos="fade-left">
+        <h5 className="footer-title tx-dark fw-500">Alamat Kami</h5>
         <p className="fs-17">
-          2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
+          {/* 2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states. */}
+          JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
         </p>
-        <a href="mailto:januinc@company.com" className="email tran3s fs-17">
-          januinc@company.com
+        <a href="mailto:info@gminovasi.com" className="email tran3s fs-17">
+          info@gminovasi.com
         </a>
         <br />
-        <a href="tel:+7576994478" className="mobile tran3s fs-20 mt-20 mb-30">
-          +757 699-4478
+        <a
+          href="https://Wa.me/+6281220396797"
+          style={{
+            color: "#a07d08",
+          }}
+          className="mobile tran3s  fs-20 mt-20 mb-30"
+          target="_blank"
+        >
+          +62 812-2039-6797
         </a>
 
         <Social />

@@ -32,7 +32,7 @@
   --heading: #090f32;
   --prime-one: #ff8c24;
   --prime-two: #ff733b;
-  --prime-three: #6a45ff;
+  --prime-three: #b38433;
   --prime-four: #ffcd45;
   --prime-five: #007bff;
   --prime-six: #ffd338;
@@ -42,6 +42,9 @@
   --prime-ten: #ff3294;
   --prime-eleven: #ffce4c;
   --prime-twelve: #ffe500;
+
+
+  --primary-gmi: #a07d08;
 }
 ::selection {
   background-color: #2a2a2a;
@@ -326,7 +329,10 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: var(--prime-ten);
+  // background: var(--prime-ten);
+
+  // background orange
+  background: var(--primary-gmi);
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -415,7 +421,8 @@ p {
   bottom: 13px;
   width: 97%;
   height: 12px;
-  background: #ff5bd7;
+  // background: #ff5bd7;
+  background: #a07d08;
   opacity: 0.5;
   z-index: -1;
 }
@@ -1127,7 +1134,8 @@ body .btn-twentySix:hover:after {
 .theme-main-menu .contact-btn-one {
   line-height: 52px;
   border-radius: 6px;
-  background: #000;
+  // background: #000;
+  background: var(--primary-gmi);
   padding: 0 35px;
 }
 .theme-main-menu .contact-btn-one:hover {
@@ -2778,7 +2786,9 @@ body .btn-twentySix:hover:after {
 .pricing-section-one .shape-one {
   width: 293px;
   height: 293px;
-  background: #57f2cf;
+  // background: #57f2cf;
+  // background : var(--prim);
+  background: #a07d08;
   top: 24%;
   left: -150px;
   animation: jumpTwo 4s infinite linear;
@@ -7775,6 +7785,17 @@ body .btn-twentySix:hover:after {
   bottom: -1%;
   left: -32%;
 }
+
+// custom herro-banner-twelve
+.hero-banner-twelve-custom{
+  background: #fbf4ee;
+}
+.hero-banner-twelve-custom .hero-heading {
+  font-size: 90px;
+  line-height: 1.05em;
+  letter-spacing: -1px;
+}
+
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Thirty Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-thirtyNine {
   background-color: #0f0f0f;
@@ -10465,4 +10486,24 @@ body .btn-twentySix:hover:after {
 .fancy-feature-fiftySeven .location.seven {
   top: 65%;
   left: 72%;
+}
+
+
+// my custom style
+
+::placeholder {
+  color: #000;
+}
+
+.primary-gmi{
+  color: var(--primary-gmi);
+}
+
+.btn-primary-gmi{
+  background-color: var(--primary-gmi);
+  border-color: var(--primary-gmi);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
