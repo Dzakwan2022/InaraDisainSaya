@@ -1,9 +1,57 @@
 import Image from "next/image";
+import HeaderCarousel from "../../carousels/HeaderCarousel";
 
 const Hero = () => {
+  const imageItems = [
+    {
+      src: "/images/shape/shape_09.svg",
+      alt: "shape",
+      className: "shapes shape-one",
+    },
+    {
+      src: "/images/shape/shape_10.svg",
+      alt: "shape",
+      className: "shapes shape-two",
+    },
+    {
+      src: "/images/shape/shape_11.svg",
+      alt: "shape",
+      className: "lazy-img shapes shape-four",
+    },
+    {
+      src: "/images/shape/shape_12.svg",
+      alt: "shape",
+      className: "lazy-img shapes shape-five",
+    },
+    {
+      src: "/images/shape/shape_13.svg",
+      alt: "shape",
+      className: "lazy-img shapes shape-seven",
+    },
+  ];
   return (
-    <div className="hero-banner-twelve pt-225 pb-120 lg-pb-80 md-pt-200">
-      <div className="container">
+    <div className="hero-banner-twelve-custom pt-225 pb-120 lg-pb-80 md-pt-200">
+      <div className="container ">
+        <div className="row position-relative">
+          <div className="col">
+            <HeaderCarousel />
+          </div>
+          <div className="col z-3 position-absolute top-100 start-50 translate-middle " style={{
+            marginTop: "50px",
+          }}>
+            <div className="">
+              <img
+                src="/images/shape/shape_09.svg"
+                alt="shape"
+                className="shapes shape-one"
+              />
+              <img src="/images/shape/shape_54.svg" alt="shape" className=" " />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="text-wrapper" data-aos="fade-right">
@@ -34,7 +82,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {/* End col-6 */}
 
           <div
             className="col-xxl-6 col-xl-5 col-md-6 ms-auto text-end"
@@ -65,7 +112,6 @@ const Hero = () => {
                 <h4>120k+</h4>
                 <p>Online Videos</p>
               </div>
-              {/* /.card-one */}
 
               <div
                 className="card-style card-two d-flex flex-column justify-content-center align-items-center"
@@ -75,7 +121,6 @@ const Hero = () => {
                 <h4>200+</h4>
                 <p>Categories</p>
               </div>
-              {/* /.card-one */}
 
               <div
                 className="card-style card-three d-flex flex-column justify-content-center align-items-center"
@@ -93,7 +138,6 @@ const Hero = () => {
                   </span>
                 </div>
               </div>
-              {/* /.card-one */}
 
               <img
                 src="/images/shape/shape_146.svg"
@@ -107,11 +151,8 @@ const Hero = () => {
               />
             </div>
           </div>
-          {/* End col-6 */}
         </div>
-        {/* /.row */}
-      </div>
-      {/* /.container */}
+      </div> */}
     </div>
   );
 };

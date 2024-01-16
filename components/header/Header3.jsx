@@ -23,32 +23,40 @@ const Header3 = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-nine ${
+      className={`theme-main-menu sticky-menu theme-menu-one ${
         navbar ? "fixed" : ""
       }`}
     >
-      <div className="notice-banner text-center">
+      {/* <div className="notice-banner text-center">
         It&lsquo;s the last day to save. The skills for now —{" "}
         <a href="#" className="fw-500">
           now on sale.
         </a>
-      </div>
+      </div> */}
       {/* End notice banner */}
 
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link href="/" className="logo order-lg-0">
+            <Link href="/" className="d-block">
+              <Image
+                src="/images/logo/logo-gmi.png"
+                alt="logo"
+                width={200}
+                height={55}
+              />
+            </Link>
+            {/* <Link href="/" className="logo order-lg-0">
               <Image
                 src="/images/logo/logo_07.png"
                 alt="logo"
                 width={95}
                 height={30}
               />
-            </Link>
+            </Link> */}
           </div>
           {/* End logo */}
-          <form
+          {/* <form
             action="#"
             className="header-search-one position-relative order-lg-1 me-auto"
           >
@@ -60,9 +68,16 @@ const Header3 = () => {
               alt="icon"
               className="icon position-absolute"
             />
-          </form>
+          </form> */}
           <div className="right-widget d-flex align-items-center order-lg-3 ms-xxl-5 ms-lg-3">
             <Link
+              // href="/contact/contact-v2"
+              href="/contact"
+              className="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block"
+            >
+              Contact us
+            </Link>
+            {/* <Link
               href="/login"
               className="login-btn-two fw-500 d-none d-lg-flex align-items-center me-4"
             >
@@ -80,7 +95,7 @@ const Header3 = () => {
               className="signup-btn-three fw-500 tran3s d-none d-lg-block"
             >
               Sign Up
-            </Link>
+            </Link> */}
           </div>{" "}
           {/* /.right-widget */}
           <MainMenu />
