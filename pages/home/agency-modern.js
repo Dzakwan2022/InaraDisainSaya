@@ -5,6 +5,9 @@ import FancyBlock from "../../components/home-page/home-10/FancyBlock";
 import FancyBlock2 from "../../components/home-page/home-10/FancyBlock2";
 import Header from "../../components/home-page/home-10/Header";
 import Hero from "../../components/home-page/home-10/Hero";
+import HeroEdu from "../../components/home-page/home-3/Hero";
+import Header3 from "../../components/header/Header3";
+
 import OurAim from "../../components/home-page/home-10/OurAim";
 import Services from "../../components/home-page/home-10/Services";
 import Testimonial from "../../components/home-page/home-10/Testimonial";
@@ -26,9 +29,14 @@ const AgencyModern = () => {
     <>
       <Seo pageTitle="PT GMI - Gunung Mas Inovasi" />
 
-      <Header />
+      {/* <Header /> */}
 
-      <section className="hero-banner-one">
+      <section id="#">
+        <Header3 />
+
+        <HeroEdu />
+      </section>
+      {/* <section className="hero-banner-one">
         <div className="bg-wrapper" data-aos="fade">
           <Hero />
           <img
@@ -37,7 +45,7 @@ const AgencyModern = () => {
             className="lazy-img shapes shape-eight"
           />
         </div>
-      </section>
+      </section> */}
 
       <section className="fancy-feature-one pt-170 lg-pt-140" id="about">
         <div className="container">
@@ -96,10 +104,7 @@ const AgencyModern = () => {
         </div>
       </section>
 
-      <section
-        className="pricing-section-one pt-170 lg-pt-14"
-        id="product"
-      >
+      <section className="pricing-section-one pt-170 lg-pt-14" id="product">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 m-auto">

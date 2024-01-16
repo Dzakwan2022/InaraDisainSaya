@@ -13,7 +13,7 @@ const HeaderCarousel = () => {
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 2500,
+        delay: 10000,
         disableOnInteraction: false,
       }}
       // pagination={{
@@ -22,11 +22,11 @@ const HeaderCarousel = () => {
       pagination={false}
       // navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper footer-style-one"
     >
       <SwiperSlide>
         <div className="container">
-          <div className="row flex align-items-center">
+          <div className="row flex align-items-center justify-content-between ">
             <div className="col">
               <h1 className="text-uppercase">PT Gunung Mas Inovasi</h1>
               <p>
@@ -44,6 +44,7 @@ const HeaderCarousel = () => {
                 alt="hero"
                 width={500}
                 height={500}
+                className=""
               />
             </div>
           </div>
