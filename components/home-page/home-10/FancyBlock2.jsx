@@ -33,7 +33,7 @@ const FancyBlock2 = () => {
     },
     {
       icon: "/images/icon/icon_107.svg",
-      title: "Disaster Recovery Center",
+      title: "Simulasi Perhitungan Otomatis",
       subtitle: "All design compitable with mobile.",
       delay: "300",
     },
