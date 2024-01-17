@@ -22,17 +22,12 @@ const MainPage = () => {
 
         <HeroEdu />
       </section>
-      {/* <section className="hero-banner-one">
-        <div className="bg-wrapper" data-aos="fade">
-          <Hero />
-          <img
-            src="/images/shape/shape_08.svg"
-            alt="illustration"
-            className="lazy-img shapes shape-eight"
-          />
-        </div>
-      </section> */}
 
+      {/*
+			=====================================================
+				about section
+			=====================================================
+			*/}
       <section className="fancy-feature-one pt-170 lg-pt-140" id="about">
         <div className="container">
           <div className="row align-items-center">
@@ -54,8 +49,6 @@ const MainPage = () => {
             </div>
             <div className="col-lg-5 ms-auto" data-aos="fade-left">
               <p className="text-lg text-center text-lg-start md-pt-30 m0">
-                {/* Jano provides alternative asset management solutions to a global
-                client base and manages a significant. */}
                 Lembaga Keuangan dan Perbankan Micro berperan penting dalam
                 memajukan sektor ekonomi di Indonesia. Dengan sistem digital
                 kami, Lembaga Keuangan dan Perbankan Micro dapat
@@ -66,12 +59,6 @@ const MainPage = () => {
           </div>
         </div>
 
-        {/* <div className="inner-content pt-110 lg-pt-60 md-pt-30">
-          <div className="row gx-xxl-5">
-            <Services />
-          </div>
-        </div> */}
-
         <div className="wrapper pt-110 lg-pt-80">
           <div className="container">
             <div className="row justify-content-between">
@@ -81,6 +68,11 @@ const MainPage = () => {
         </div>
       </section>
 
+      {/*
+			=====================================================
+				why us section
+			=====================================================
+			*/}
       <section
         className="fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60 "
         id="whyUs"
@@ -90,6 +82,11 @@ const MainPage = () => {
         </div>
       </section>
 
+      {/*
+			=====================================================
+				product & services section
+			=====================================================
+			*/}
       <section className="pricing-section-one pt-170 lg-pt-14" id="product">
         <div className="container">
           <div className="row">
@@ -121,7 +118,30 @@ const MainPage = () => {
         {/* End .container */}
 
         <div className="shapes shape-one rounded-circle" />
-        <img
+        <Image
+          src="/images/shape/shape_40.svg"
+          alt="shape"
+          width={20}
+          height={20}
+          className="lazy-img shapes shape-two"
+        />
+
+        <Image
+          src="/images/shape/shape_41.svg"
+          alt="shape"
+          width={20}
+          height={20}
+          className="lazy-img shapes shape-three"
+        />
+
+        <Image
+          src="/images/shape/shape_42.svg"
+          alt="shape"
+          width={20}
+          height={20}
+          className="lazy-img shapes shape-four"
+        />
+        {/* <img
           src="/images/shape/shape_40.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
@@ -130,9 +150,14 @@ const MainPage = () => {
           src="/images/shape/shape_41.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
       </section>
 
+      {/*
+			=====================================================
+				clients section
+			=====================================================
+			*/}
       <section
         className="partner-section-two position-relative  pt-170 lg-pt-14"
         id="clients"
@@ -188,24 +213,13 @@ const MainPage = () => {
           height={20}
           className="lazy-img shapes shape-three"
         />
-
-        {/* <img
-          src="/images/shape/shape_49.svg"
-          alt="logo"
-          className="lazy-img shapes shape-one"
-        />
-        <img
-          src="/images/shape/shape_50.svg"
-          alt="logo"
-          className="lazy-img shapes shape-two"
-        />
-        <img
-          src="/images/shape/shape_51.svg"
-          alt="logo"
-          className="lazy-img shapes shape-three"
-        /> */}
       </section>
 
+      {/*
+			=====================================================
+				contact section
+			=====================================================
+			*/}
       <section className=" pt-100 lg-pt-14" id="contact">
         <div className="contact-section-two text-start mt-80 lg-mt-60">
           <div className="row">
@@ -223,12 +237,6 @@ const MainPage = () => {
             </div>
             {/* End col-xl-4 */}
           </div>
-
-          {/* <div className="row">
-            <h5>Location</h5>
-
-            <Map2 />
-          </div> */}
         </div>
         {/* /.contact-section-two */}
       </section>
