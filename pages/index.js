@@ -1,11 +1,11 @@
 import Wrapper from "../layout/wrapper";
-import AgencyModern from "./home/agency-modern";
-import Insurance from "./home/insurance";
+import MainPage from "./home/main-portal";
 
 const MainRoot = () => {
   return (
     <Wrapper>
-      <AgencyModern />
+      {/* <AgencyModern /> */}
+      <MainPage />
     </Wrapper>
   );
 };

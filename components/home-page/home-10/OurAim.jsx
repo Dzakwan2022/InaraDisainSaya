@@ -74,26 +74,11 @@ const OurAim = () => {
           {imageItems.map((item, index) => (
             <div key={index}>
               <img src={item.src} alt={item.alt} className={item.className} />
-              {/* <Image 
-            src={item.src}
-            alt={item.alt}
-            width={500}
-            height={500}
-            /> */}
+         
             </div>
           ))}
 
-          {/* <div className="card-one" data-aos="fade-up" data-aos-delay="200">
-            <div className="icon d-flex align-items-center justify-content-center rounded-circle">
-              <img src={cardItem.imgSrc} alt="shape" className="lazy-img" />
-            </div>
-            <div className="name fs-18 fw-500 tx-dark mb-10">
-              - {cardItem.name},{" "}
-              <span className="opacity-50">{cardItem.position}</span>
-            </div>
-            <p className="fs-18 m0">{cardItem.text}</p>
-          </div> */}
-          {/* /.card-one */}
+         
         </div>
         {/* /.img-meta */}
       </div>
@@ -156,13 +141,6 @@ const OurAim = () => {
           </div>
         ))}
 
-        {/* <Link
-          href="/pages-menu/about-us-v1"
-          className="more-btn tran3s fw-500 fs-18"
-          data-aos="fade-left"
-        >
-          Discover More <i className="bi bi-arrow-right"></i>
-        </Link> */}
       </div>
       {/* End .col */}  
     </div>
