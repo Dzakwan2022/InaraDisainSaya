@@ -20,7 +20,7 @@ const Pricing = () => {
 			Error Page
 			============================================== 
 			*/}
-      <div className="error-page-content d-flex align-items-center justify-content-center">
+      <div className="error-page-content  d-flex align-items-center justify-content-center">
         <div className="container">
           <div className="row">
             <div className="col-xxl-6 col-lg-7 m-auto">

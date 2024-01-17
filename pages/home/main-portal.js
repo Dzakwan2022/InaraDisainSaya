@@ -1,30 +1,16 @@
-import Link from "next/link";
 import Seo from "../../components/common/Seo";
-import Blog from "../../components/home-page/home-10/Blog";
-import FancyBlock from "../../components/home-page/home-10/FancyBlock";
 import FancyBlock2 from "../../components/home-page/home-10/FancyBlock2";
-import Header from "../../components/home-page/home-10/Header";
-import Hero from "../../components/home-page/home-10/Hero";
 import HeroEdu from "../../components/home-page/home-3/Hero";
 import Header3 from "../../components/header/Header3";
 
 import OurAim from "../../components/home-page/home-10/OurAim";
-import Services from "../../components/home-page/home-10/Services";
-import Testimonial from "../../components/home-page/home-10/Testimonial";
-import FancyBanner from "../../components/home-page/home-10/FancyBanner";
-import CallToActions from "../../components/home-page/home-10/CallToActions";
 import Footer from "../../components/home-page/home-10/Footer";
 import Tabs from "../../components/tabs/Tabs";
-import Tabs2 from "../../components/tabs/Tabs2";
-import ContactForm2 from "../../components/contact/ContactForm2";
-import ContactForm3 from "../../components/contact/ContactForm3";
 import BlockContact2 from "../../components/contact/BlockContact2";
-import BlockContact from "../../components/contact/BlockContact";
-import BlockContact3 from "../../components/contact/BlockContact3";
 import Map2 from "../../components/contact/Map";
 import LogoGroup from "../../components/home-page/home-7/LogoGroup";
 import Image from "next/image";
-const AgencyModern = () => {
+const MainPage = () => {
   return (
     <>
       <Seo pageTitle="PT GMI - Gunung Mas Inovasi" />
@@ -278,4 +264,4 @@ const AgencyModern = () => {
   );
 };
 
-export default AgencyModern;
+export default MainPage;
