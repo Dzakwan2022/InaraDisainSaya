@@ -1,9 +1,9 @@
 const LogoGroup = () => {
   const logoImages = [
-    "logo-ssb-1.png",
+    "rifi-1.png",
     "kopjas-dana-1.png",
     "grahadi-1.png",
-    "rifi-1.png"
+    "logo-ssb-1.png"
     // "Plogo-7.png", 
     // "Plogo-8.png",
     // "Plogo-9.png",

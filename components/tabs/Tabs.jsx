@@ -18,7 +18,7 @@ const monthlyPricingPlans = [
     {
       id: "PRODUK",
       features: [
-        "sistem Pengajuan KRESUN",
+        "Sistem Pengajuan KRESUN",
         "Sistem Affiliate Marketplace",
         "Point Of Sale",
         "Sistem Rekonsiliasi"
