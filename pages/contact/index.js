@@ -23,7 +23,6 @@ const ContactPage = () => {
       <div className="inner-banner-three text-center p">
         <div
           className="bg-wrapper text-center"
-          style={{ backgroundImage: "url(/images/assets/bg-17.svg)" }}
         >
           <div className="container">
             <div className="title-style-five">

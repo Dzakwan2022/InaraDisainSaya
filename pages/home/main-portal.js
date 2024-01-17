@@ -1,11 +1,11 @@
 import Seo from "../../components/common/Seo";
 import FancyBlock2 from "../../components/home-page/home-10/FancyBlock2";
 import HeroEdu from "../../components/home-page/home-3/Hero";
-import Header3 from "../../components/header/Header3";
+import Header from "../../components/header/Header";
 
-import OurAim from "../../components/home-page/home-10/OurAim";
+import WhyUs from "../../components/home-page/home-10/WhyUs";
 import Footer from "../../components/home-page/home-10/Footer";
-import Tabs from "../../components/tabs/Tabs";
+import Product from "../../components/tabs/Product";
 import BlockContact2 from "../../components/contact/BlockContact2";
 import Map2 from "../../components/contact/Map";
 import LogoGroup from "../../components/home-page/home-7/LogoGroup";
@@ -18,7 +18,7 @@ const MainPage = () => {
       {/* <Header /> */}
 
       <section id="#">
-        <Header3 />
+        <Header />
 
         <HeroEdu />
       </section>
@@ -86,7 +86,7 @@ const MainPage = () => {
         id="whyUs"
       >
         <div className="container">
-          <OurAim />
+          <WhyUs />
         </div>
       </section>
 
@@ -115,7 +115,7 @@ const MainPage = () => {
               {/* /.title-style-three */}
             </div>
           </div>
-          <Tabs />
+          <Product />
           {/* /.pricing-table-area-one */}
         </div>
         {/* End .container */}

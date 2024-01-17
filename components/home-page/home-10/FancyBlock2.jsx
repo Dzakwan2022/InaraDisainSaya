@@ -56,7 +56,7 @@ const FancyBlock2 = () => {
       {cardsData.map((card, index) => (
         <div
           key={index}
-          className="col-lg-3 col-md-4 col-sm-6 gap-30 "
+          className="col-lg-3 col-md-4 col-sm-6 col-6 gap-30 "
           data-aos="fade-up"
           data-aos-delay={card.delay}
         >
