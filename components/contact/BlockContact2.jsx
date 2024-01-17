@@ -7,8 +7,6 @@ const BlockContact2 = () => {
       title: "Alamat Kami",
       content: (
         <>
-          {/* 1012 Pebda Parkway, Mirpur 2 <br />
-          Dhaka, Bangladesh */}
           JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
         </>
       ),
@@ -50,7 +48,7 @@ const BlockContact2 = () => {
   return (
     <>
       {addressBlocks.map((block, index) => (
-        <div className="address-block-three d-flex mb-70 lg-mb-40" key={index}>
+        <div className=" address-block-three d-flex mb-70 lg-mb-40" key={index}>
           <div className="icon">
             <Image width={30} height={30} src={block.icon} alt="icon" />
           </div>
