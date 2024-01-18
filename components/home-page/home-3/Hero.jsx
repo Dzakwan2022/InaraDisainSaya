@@ -40,12 +40,14 @@ const Hero = () => {
             marginTop: "50px",
           }}>
             <div className="">
-              <img
+              <Image
                 src="/images/shape/shape_09.svg"
                 alt="shape"
+                width={150}
+                height={150}
                 className="shapes shape-one"
               />
-              <img src="/images/shape/shape_54.svg" alt="shape" className=" " />
+              <Image src="/images/shape/shape_54.svg" width={30} height={30} alt="shape" className=" " />
             </div>
           </div>
         </div>
