@@ -1,10 +1,6 @@
 const socialIcons = [
   {
-    iconClass: "fab fa-facebook-f",
-    link: "#",
-  },
-  {
-    iconClass: "fab fa-twitter",
+    iconClass: "fab fa-instagram",
     link: "#",
   },
   {
