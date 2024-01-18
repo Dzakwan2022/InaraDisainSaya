@@ -32,30 +32,40 @@ const OurAim = () => {
   ];
 
   const imageItems = [
-    { src: "/images/media/Feb.jpg", alt: "shape" },
+    { src: "/images/media/Faq.svg", alt: "shape", width: 600, height: 600},
     {
       src: "/images/shape/shape_09.svg",
       alt: "shape",
+      width: 20,
+      height: 20,
       className: "shapes shape-one",
     },
     {
       src: "/images/shape/shape_10.svg",
       alt: "shape",
+      width: 20,
+      height: 20,
       className: "shapes shape-two",
     },
     {
       src: "/images/shape/shape_11.svg",
       alt: "shape",
+      width: 20,
+      height: 20,
       className: "lazy-img shapes shape-four",
     },
     {
       src: "/images/shape/shape_12.svg",
       alt: "shape",
+      width: 20,
+      height: 20,
       className: "lazy-img shapes shape-five",
     },
     {
       src: "/images/shape/shape_13.svg",
       alt: "shape",
+      width: 20,
+      height: 20,
       className: "lazy-img shapes shape-seven",
     },
   ];
@@ -73,7 +83,7 @@ const OurAim = () => {
         <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-10 md-mt-50 sm-mt-80">
           {imageItems.map((item, index) => (
             <div key={index}>
-              <img src={item.src} alt={item.alt} className={item.className} />
+              <Image src={item.src} alt={item.alt} className={item.className} width={item.width} height={item.height} />
          
             </div>
           ))}

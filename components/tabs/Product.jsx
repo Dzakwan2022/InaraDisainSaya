@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "animate.css";
+import Image from "next/image";
 
 const monthlyPricingPlans = [
     {
@@ -52,7 +53,7 @@ const monthlyPricingPlans = [
               type="button"
               role="tab"
             >
-            <img className="img-thumbnail bg-transparent border-0 mx-auto" width={90} src="/images/icon/icon_104.svg"/ >
+            <Image className="img-thumbnail bg-transparent border-0 mx-auto" height={90} width={90} alt="icon-service" src="/images/icon/icon_104.svg"/ >
 
                 PELAYANAN
             </button>
@@ -70,7 +71,7 @@ const monthlyPricingPlans = [
               type="button"
               role="tab"
             >
-                 <img className="img-thumbnail bg-transparent border-0 mx-auto" width={90} src="/images/icon/icon_105.svg"/>
+                 <Image className="img-thumbnail bg-transparent border-0 mx-auto" height={90} width={90} alt="icon-product" src="/images/icon/icon_105.svg"/>
               PRODUK
             </button>
           </li>
@@ -121,7 +122,7 @@ const monthlyPricingPlans = [
                   </div>
                 </div>
                 <div className="col-xxl-6 m-auto">
-                  <img width={550} src="/images/icon/25699262_7133186.svg"></img>
+                  <Image  width={550} height={375} alt="ilustasi-service" src="/images/icon/25699262_7133186.svg"/>
                 </div>
               </div>
             </div>
@@ -171,7 +172,7 @@ const monthlyPricingPlans = [
                   </div>
                 </div>
                 <div className="col-xxl-6 m-auto">
-                  <img width={550} src="/images/icon/8961414_4040089.svg"></img>
+                  <Image height={375} width={550} alt="ilustrasi-product" src="/images/icon/8961414_4040089.svg"/>
                 </div>
               </div>
             </div>

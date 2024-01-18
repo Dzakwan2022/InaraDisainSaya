@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Social from "./Social";
+import Image from "next/image";
 
 const Footer = () => {
   const footerLinks = [
@@ -31,18 +32,21 @@ const Footer = () => {
       <div className="col-xl-6 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img
+            <Image
               src="/images/logo/logo-gmi.png"
               alt=""
               width={400}
+              height={110}
               data-aos="fade-up"
             />
           </Link>
         </div>
-        <img
+        <Image
           src="/images/shape/shape_24.svg"
           alt="shape"
           className="mt-60 d-none d-lg-block"
+          width={100}
+          height={100}
         />
       </div>
       {/* End .col-xl-3 */}
