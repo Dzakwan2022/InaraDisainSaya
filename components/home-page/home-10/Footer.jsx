@@ -76,14 +76,15 @@ const Footer = () => {
         </a>
         <br />
         <a
-          href="https://Wa.me/+6281220396797"
+          href="https://wa.me/+6289692586529"
           style={{
             color: "#a07d08",
           }}
           className="mobile tran3s  fs-20 mt-20 mb-30"
           target="_blank"
         >
-          +62 812-2039-6797
+          {/* +62 812-2039-6797 */}
+          +62 896-9258-6529
         </a>
 
         <Social />

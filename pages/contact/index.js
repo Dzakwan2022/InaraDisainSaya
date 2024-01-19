@@ -79,7 +79,7 @@ const ContactPage = () => {
             <Footer />
             <div className="bottom-footer">
               <p className="copyright text-center m0">
-                © {new Date().getFullYear()} -{" "}
+                © {new Date().getFullYear()} - {" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
