@@ -26,10 +26,12 @@ const ContactPage = () => {
         >
           <div className="container">
             <div className="title-style-five">
-              <h2 className="main-title tx-dark fw-bold">Contact Us</h2>
+              <h2 className="main-title tx-dark fw-bold">Kontak Kami</h2>
             </div>
             <p className="fs-20 mt-30 lg-mt-20">
-              Get our all info and also can message us directly from here
+              {/* Get our all info and also can message us directly from here */}
+
+              Anda dapat menghubungi kami melalui form dan kontak di bawah ini.
             </p>
           </div>
           {/* End container */}
@@ -77,7 +79,7 @@ const ContactPage = () => {
             <Footer />
             <div className="bottom-footer">
               <p className="copyright text-center m0">
-                © {new Date().getFullYear()} -{" "}
+                © {new Date().getFullYear()} - {" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

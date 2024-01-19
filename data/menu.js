@@ -87,7 +87,7 @@ export const pagesItems = [
 export const profileItems = [
   {
     title: "Tentang Kami",
-    link: "#about",
+    link: "#",
     subItems: [
       { title: "About - Insurance", link: "/pages-menu/about-us-v1" },
       { title: "About - Real Estate", link: "/pages-menu/about-us-v2" },

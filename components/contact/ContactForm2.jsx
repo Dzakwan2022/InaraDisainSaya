@@ -74,7 +74,7 @@ const ContactForm2 = () => {
         </div>
         <ReCAPTCHA
           className="py-3"
-          sitekey="6Lfc9lApAAAAAP5kL-dDlJhaCIz6zQptk5QDli2P"
+          sitekey="6LcznVUpAAAAAKyYOtfox1ZfxwX24UESo8p6BNj7"
           onChange={handleRecaptchaVerify}
         />
         <div className="col-12">

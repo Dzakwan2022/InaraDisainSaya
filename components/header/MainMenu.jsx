@@ -147,21 +147,28 @@ const MainMenu = () => {
             <ul className="dropdown-menu">
               {profileItems.map((item, index) => (
                 <li className="" key={index}>
-                  <a
-                    // className="dropdown-item dropdown-toggle"
-                    // data-bs-toggle="dropdown"
-                    // data-bs-auto-close="outside"
-                    // aria-expanded="false"
-                    className="dropdown-item "
-                    // className={
-                    //   item.subItems.some((elm) => isActive(elm.link))
-                    //     ? "dropdown-item dropdown-toggle active-menu"
-                    //     : "dropdown-item dropdown-toggle"
-                    // }
-                    href={item.link}
-                  >
-                    <span>{item.title}</span>
-                  </a>
+                  {
+                    router.pathname === "/contact" || "/#" ? (
+                      <Link
+                        href={item.link}
+                        className={`dropdown-item ${
+                          isActive(item.link) ? "active" : ""
+                        }`}
+                      >
+                        <span>{item.title}</span>
+                      </Link>
+                    ) : (
+                      <a
+                        href="#ssss"
+                        role="button"
+                        className={`dropdown-item ${
+                          isActive(item.link) ? "active" : ""
+                        }`}
+                      >
+                        <span>{item.title}</span>
+                      </a>
+                    )
+                  }
                   <ul className="dropdown-menu">
                     {item.subItems.map((subMenu, i) => (
                       <li key={i}>
@@ -318,7 +325,7 @@ const MainMenu = () => {
               href="/contact"
               className="btn-primary-gmi fw-500 tran3s"
             >
-              Contact us
+              Kontak Kami
             </Link>
           </div>
         </div>
