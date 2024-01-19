@@ -16,7 +16,9 @@ const BlockContact2 = () => {
       title: "Kontak",
       content: (
         <>
-          Open a chat or give us call at <br />
+          Silahkan hubungi kami melalui nomor Whatsapp berikut
+          
+           <br />
           <a
             href="https://Wa.me/+6281220396797"
             style={{
@@ -36,7 +38,9 @@ const BlockContact2 = () => {
       title: "Helpdesk",
       content: (
         <>
-          Urgent go to live chat portal <br />
+          {/* Urgent go to live chat portal  */}
+          Untuk pertanyaan yang lebih lanjut, silahkan hubungi kami melalui
+          <br />
           <a href="mailto:info@gminovasi.com" className="webaddress">
             info@gminovasi.com
           </a>

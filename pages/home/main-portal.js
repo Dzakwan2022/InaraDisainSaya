@@ -23,50 +23,7 @@ const MainPage = () => {
         <HeroEdu />
       </section>
 
-      {/*
-			=====================================================
-				about section
-			=====================================================
-			*/}
-      <section className="fancy-feature-one pt-170 lg-pt-140" id="about">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6" data-aos="fade-right">
-              <div className="title-style-one text-center text-lg-start">
-                <h2 className="main-title fw-bold tx-dark m0">
-                  Mendukung <span>Kemajuan</span> Ekonomi Makro di{" "}
-                  <p
-                    style={{
-                      color: "#a07d08",
-                    }}
-                    className="d-inline"
-                  >
-                    Indonesia
-                  </p>{" "}
-                  .
-                </h2>
-              </div>
-            </div>
-            <div className="col-lg-5 ms-auto" data-aos="fade-left">
-              <p className="text-lg text-center text-lg-start md-pt-30 m0">
-                Lembaga Keuangan dan Perbankan Micro berperan penting dalam
-                memajukan sektor ekonomi di Indonesia. Dengan sistem digital
-                kami, Lembaga Keuangan dan Perbankan Micro dapat
-                mengintegrasikan berbagai skema bisnis dan pelayanannya untuk
-                maju bersama-sama meski ke pelosok sekalipun.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="wrapper pt-110 lg-pt-80">
-          <div className="container">
-            <div className="row justify-content-between">
-              <FancyBlock2 />
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       {/*
 			=====================================================
@@ -151,6 +108,51 @@ const MainPage = () => {
           alt="shape"
           className="lazy-img shapes shape-three"
         /> */}
+      </section>
+
+        {/*
+			=====================================================
+				about section
+			=====================================================
+			*/}
+      <section className="fancy-feature-one pt-170 lg-pt-140" id="about">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6" data-aos="fade-right">
+              <div className="title-style-one text-center text-lg-start">
+                <h2 className="main-title fw-bold tx-dark m0">
+                  Mendukung <span>Kemajuan</span> Ekonomi Makro di{" "}
+                  <p
+                    style={{
+                      color: "#a07d08",
+                    }}
+                    className="d-inline"
+                  >
+                    Indonesia
+                  </p>{" "}
+                  .
+                </h2>
+              </div>
+            </div>
+            <div className="col-lg-5 ms-auto" data-aos="fade-left">
+              <p className="text-lg text-center text-lg-start md-pt-30 m0">
+                Lembaga Keuangan dan Perbankan Micro berperan penting dalam
+                memajukan sektor ekonomi di Indonesia. Dengan sistem digital
+                kami, Lembaga Keuangan dan Perbankan Micro dapat
+                mengintegrasikan berbagai skema bisnis dan pelayanannya untuk
+                maju bersama-sama meski ke pelosok sekalipun.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="wrapper pt-110 lg-pt-80">
+          <div className="container">
+            <div className="row justify-content-between">
+              <FancyBlock2 />
+            </div>
+          </div>
+        </div>
       </section>
 
       {/*

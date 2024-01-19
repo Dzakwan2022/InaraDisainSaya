@@ -45,7 +45,7 @@ const Header = () => {
               href="/contact"
               className="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block"
             >
-              Contact us
+              Kontak Kami
             </Link>
           </div>{" "}
           {/* /.right-widget */}

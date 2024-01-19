@@ -32,7 +32,7 @@ const OurAim = () => {
   ];
 
   const imageItems = [
-    { src: "/images/media/Faq.svg", alt: "shape", width: 600, height: 600},
+    { src: "/images/media/faq.svg", alt: "shape", width: 600, height: 600},
     {
       src: "/images/shape/shape_09.svg",
       alt: "shape",
