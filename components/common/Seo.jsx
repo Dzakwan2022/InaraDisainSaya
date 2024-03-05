@@ -8,7 +8,7 @@ const Seo = ({ pageTitle }) => (
       <meta name="title" content="PT GUNUNG MAS INOVASI" />
       <meta
         name="description"
-        content="PT GUNUNG MAS INVOASI Adalah Perusahaan IT Spesialis di bidang Micro Finance & Sistem Informasi berdomisili di kota bandung"
+        content="PT GUNUNG MAS INOVASI Adalah Perusahaan IT Spesialis di bidang Micro Finance & Sistem Informasi berdomisili di kota bandung"
       />
       <meta
         name="keywords"
