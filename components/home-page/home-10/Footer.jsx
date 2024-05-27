@@ -68,8 +68,7 @@ const Footer = () => {
       <div className="col-xl-6 col-sm-4 mb-30" data-aos="fade-left">
         <h5 className="footer-title tx-dark fw-500">Alamat Kami</h5>
         <p className="fs-17">
-          {/* 2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states. */}
-          JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
+          Jl. Ahmad Yani No 651 (Apartment Gateway Cicadas LG 11), Bandung Jawa Barat, Bandung, Jawa Barat 40121, ID
         </p>
         <a href="mailto:info@gminovasi.com" className="email tran3s fs-17">
           info@gminovasi.com

@@ -7,7 +7,7 @@ const BlockContact2 = () => {
       title: "Alamat Kami",
       content: (
         <>
-          JL. Sunda No 85, Bandung Jawa Barat, Bandung, Jawa Barat 40112, ID
+          Jl. Ahmad Yani No 651 (Apartment Gateway Cicadas LG 11), Bandung Jawa Barat, Bandung, Jawa Barat 40121, ID
         </>
       ),
     },
