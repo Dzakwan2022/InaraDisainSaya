@@ -23,86 +23,41 @@ const Header3 = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-one ${
-        navbar ? "fixed" : ""
-      }`}
-    >
-      {/* <div className="notice-banner text-center">
-        It&lsquo;s the last day to save. The skills for now —{" "}
-        <a href="#" className="fw-500">
-          now on sale.
-        </a>
-      </div> */}
-      {/* End notice banner */}
-
-      <div className="inner-content position-relative">
-        <div className="d-flex align-items-center justify-content-between">
-          <div className="logo order-lg-0">
-            <Link href="/" className="d-block">
-              <Image
-                src="/images/logo/logo-gmi.png"
-                alt="logo"
-                width={200}
-                height={55}
-              />
-            </Link>
-            {/* <Link href="/" className="logo order-lg-0">
-              <Image
-                src="/images/logo/logo_07.png"
-                alt="logo"
-                width={95}
-                height={30}
-              />
-            </Link> */}
-          </div>
-          {/* End logo */}
-          {/* <form
-            action="#"
-            className="header-search-one position-relative order-lg-1 me-auto"
-          >
-            <input type="text" placeholder="What do you want to learn today?" />
-            <Image
-              width={20}
-              height={20}
-              src="/images/icon/icon_122.svg"
-              alt="icon"
-              className="icon position-absolute"
-            />
-          </form> */}
-          <div className="right-widget d-flex align-items-center order-lg-3 ms-xxl-5 ms-lg-3">
-            <Link
-              // href="/contact/contact-v2"
-              href="/contact"
-              className="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block"
-            >
-              Kontak Kami
-            </Link>
-            {/* <Link
-              href="/login"
-              className="login-btn-two fw-500 d-none d-lg-flex align-items-center me-4"
-            >
-              <Image
-                width={20}
-                height={20}
-                src="/images/icon/icon_121.svg"
-                alt="icon"
-                className="me-2"
-              />
-              <span>login</span>
-            </Link>
-            <Link
-              href="/signup"
-              className="signup-btn-three fw-500 tran3s d-none d-lg-block"
-            >
-              Sign Up
-            </Link> */}
-          </div>{" "}
-          {/* /.right-widget */}
-          <MainMenu />
+  className={`theme-main-menu sticky-menu theme-menu-one ${
+    navbar ? "fixed" : ""
+  }`}
+>
+  <div className="inner-content position-relative">
+    <div className="d-flex align-items-center justify-content-between">
+      <div className="logo order-lg-0 d-flex align-items-center">
+        <Link href="/" className="d-block">
+          <Image
+            src="/images/logo/inara.png"
+            alt="logo"
+            width={100}
+            height={80}
+          />
+        </Link>
+        <div style={{ marginLeft: "20px" }}>
+          <h2 style={{ fontSize: "1rem", lineHeight: "1.5", paddingTop: "20px" }}>
+            <b>KOPERASI JASA <br/>INSAN JAYA<br /> SEJAHTERA</b>
+          </h2>
         </div>
       </div>
-      {/* /.inner-content */}
-    </header>
+      <div className="right-widget d-flex align-items-center order-lg-3 ms-xxl-5 ms-lg-3">
+        <Link
+          href="https://wa.me/+6288214031683"
+          className="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block"
+        >
+          Kontak Kami
+        </Link>
+      </div>
+      <MainMenu />
+    </div>
+  </div>
+</header>
+
+  
   );
 };
 

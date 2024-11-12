@@ -29,64 +29,48 @@ const Footer = () => {
 
   return (
     <div className="row">
-      <div className="col-xl-6 col-lg-2 footer-intro mb-40">
+      <div className="col-lg-6 col-md-12 footer-intro mb-40 text-center text-lg-start">
         <div className="logo">
-          <Link href="/">
-            <Image
-              src="/images/logo/logo-gmi.png"
-              alt=""
-              width={400}
-              height={110}
-              data-aos="fade-up"
-            />
-          </Link>
+          <Image
+            src="/images/media/LogoInara.png"
+            alt="shape"
+            className="mt-60 d-none d-lg-block"
+            width={250}
+            height={250}
+          />
         </div>
-        <Image
-          src="/images/shape/shape_24.svg"
-          alt="shape"
-          className="mt-60 d-none d-lg-block"
-          width={100}
-          height={100}
-        />
       </div>
-      {/* End .col-xl-3 */}
+      {/* End .col-lg-6 */}
 
-      {footerLinks.map((link, index) => (
-        <div key={index} className={link.classes}>
-          <h5 className="footer-title tx-dark fw-500">{link.title}</h5>
-          <ul className="footer-nav-link style-none">
-            {link.links.map((linkItem, index) => (
-              <li key={index}>
-                <Link href={linkItem.href}>{linkItem.label}</Link>
-              </li>
-            ))}
-          </ul>
+      <div className="col-lg-6 col-md-12 mb-30" data-aos="fade-left">
+        <h5 className="footer-title tx-dark text-center text-lg-start">KOPERASI JASA INSAN JAYA SEJAHTERA</h5>
+        <div className="text-center text-lg-start">
+          <h4>Alamat :</h4>
+          <p className="fs-17">
+            JL. SELATAN 8 NO.1, Desa/KeIurahan Jatimekar, Kec. Jatiasih,<br/>
+            Kota Bekasi, Provinsi Jawa Barat,<br/>
+             17422
+          </p>
+          <br />
+          <h4>Nomor Telepon :</h4>
+          <a
+            href="https://wa.me/+6288214031683"
+            style={{ color: "green" }}
+            className="mobile tran3s fs-20 mt-20 mb-30 d-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            0882-1403-1683
+          </a>
+          <h4>Email :</h4>
+          <a
+            href="mailto:halo.inara@koperasiinara.com"
+            style={{ color: "green" }}
+            className="d-block"
+          >
+            halo.inara@koperasiinara.com
+          </a>
         </div>
-      ))}
-      {/* End menu data */}
-
-      <div className="col-xl-6 col-sm-4 mb-30" data-aos="fade-left">
-        <h5 className="footer-title tx-dark fw-500">Alamat Kami</h5>
-        <p className="fs-17">
-          Jl. Ahmad Yani No 651 (Apartment Gateway Cicadas LG 11), Bandung Jawa Barat, Bandung, Jawa Barat 40121, ID
-        </p>
-        <a href="mailto:info@gminovasi.com" className="email tran3s fs-17">
-          info@gminovasi.com
-        </a>
-        <br />
-        <a
-          href="https://wa.me/+6289692586529"
-          style={{
-            color: "#a07d08",
-          }}
-          className="mobile tran3s  fs-20 mt-20 mb-30"
-          target="_blank"
-        >
-          {/* +62 812-2039-6797 */}
-          +62 822-9568-3836
-        </a>
-
-        <Social />
       </div>
     </div>
   );
